@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { gql, useQuery } from "@apollo/client";
 import Card from "@/src/components/Card/Card";
 
@@ -43,17 +43,23 @@ const Course = () => {
 
   const landingPages = data?.landingPages || [];
 
-  // Filter cards based on search query
-  const filteredLandingPages = landingPages.map((page) => ({
-    ...page,
-    blocks: page.blocks?.map((block) => ({
-      ...block,
-      card:
-        block.card?.filter((cardItem) =>
-          cardItem.heading?.toLowerCase().includes(searchQuery.toLowerCase())
-        ) || [],
-    })),
-  }));
+  // Use useMemo to avoid unnecessary recalculations on every render
+  const filteredLandingPages = useMemo(
+    () =>
+      landingPages.map((page) => ({
+        ...page,
+        blocks: page.blocks?.map((block) => ({
+          ...block,
+          card:
+            block.card?.filter((cardItem) =>
+              cardItem.heading
+                ?.toLowerCase()
+                .includes(searchQuery.toLowerCase())
+            ) || [],
+        })),
+      })),
+    [landingPages, searchQuery] // Only recompute when landingPages or searchQuery changes
+  );
 
   return (
     <div>
@@ -71,14 +77,12 @@ const Course = () => {
             onChange={(e) => setSearchQuery(e.target.value)}
             className="flex-grow p-3 rounded-l-lg border border-gray-300 shadow-md focus:outline-none focus:ring-2 focus:ring-[#3FC89E] focus:border-[#3FC89E] transition duration-200"
           />
-          {/* Search Button */}
+          {/* Clear Button */}
           <button
             type="button"
             className="bg-black text-white px-4 py-3 rounded-r-lg shadow-md hover:bg-gray-800 transition duration-200"
             onClick={() => setSearchQuery("")}>
-            {" "}
-            {/* Clear the search query */}
-            Search
+            {searchQuery ? "Clear" : "Search"}
           </button>
         </div>
       </div>
