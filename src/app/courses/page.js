@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import { gql, useQuery } from "@apollo/client";
 import Card from "@/src/components/Card/Card";
 
@@ -41,25 +41,18 @@ const Course = () => {
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error.message}</div>;
 
-  const landingPages = data?.landingPages || [];
+  const landingPages = data.landingPages;
 
-  // Use useMemo to avoid unnecessary recalculations on every render
-  const filteredLandingPages = useMemo(
-    () =>
-      landingPages.map((page) => ({
-        ...page,
-        blocks: page.blocks?.map((block) => ({
-          ...block,
-          card:
-            block.card?.filter((cardItem) =>
-              cardItem.heading
-                ?.toLowerCase()
-                .includes(searchQuery.toLowerCase())
-            ) || [],
-        })),
-      })),
-    [landingPages, searchQuery] // Only recompute when landingPages or searchQuery changes
-  );
+  // Filter cards based on search query
+  const filteredLandingPages = landingPages.map((page) => ({
+    ...page,
+    blocks: page.blocks.map((block) => ({
+      ...block,
+      card: block.card.filter((cardItem) =>
+        cardItem.heading?.toLowerCase().includes(searchQuery.toLowerCase())
+      ),
+    })),
+  }));
 
   return (
     <div>
@@ -77,12 +70,11 @@ const Course = () => {
             onChange={(e) => setSearchQuery(e.target.value)}
             className="flex-grow p-3 rounded-l-lg border border-gray-300 shadow-md focus:outline-none focus:ring-2 focus:ring-[#3FC89E] focus:border-[#3FC89E] transition duration-200"
           />
-          {/* Clear Button */}
+          {/* Search Button */}
           <button
             type="button"
-            className="bg-black text-white px-4 py-3 rounded-r-lg shadow-md hover:bg-gray-800 transition duration-200"
-            onClick={() => setSearchQuery("")}>
-            {searchQuery ? "Clear" : "Search"}
+            className="bg-black text-white px-4 py-3 rounded-r-lg shadow-md hover:bg-gray-800 transition duration-200">
+            Search
           </button>
         </div>
       </div>
