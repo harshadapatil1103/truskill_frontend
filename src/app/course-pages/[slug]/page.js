@@ -125,7 +125,6 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
     },
   ];
 
-  console.log(course); // Log the course data to see the structure
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(window.location.href)
