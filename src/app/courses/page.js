@@ -34,10 +34,7 @@ const Course = () => {
   const { loading, error, data } = useQuery(GET_LANDING_PAGES);
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Debugging output
-  console.log("Loading:", loading);
-  console.log("Error:", error);
-  console.log("Data:", data);
+
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error.message}</div>;
