@@ -25,13 +25,13 @@ const Card = ({ cardItem }) => {
   return (
     <div className="card bg-white p-4 rounded-2xl shadow-md  hover:shadow-lg transition-shadow duration-300">
       {/* Card Image */}
-      {cardItem.image && (
+      {/* {cardItem.image && (
         <img
-          src={`http://localhost:1337${cardItem.image.url}`}
+          src={`http://145.223.18.76:1337${cardItem.image.url}`}
           alt={cardItem.heading}
           className="w-full h-40 object-cover rounded-t-2xl p-2"
         />
-      )}
+      )} */}
         {cardItem.category && (
           <p className="text-gray-700 mt-2">
             {cardItem.category}

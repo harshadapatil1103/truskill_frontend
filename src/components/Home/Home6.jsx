@@ -1,6 +1,34 @@
 import React from 'react'
 
 function Home6() {
+
+const sectionsData =  [
+  {
+    title: 'Take the KYS Test and discover your readiness towards India\'s top employers',
+    subtitle: 'KNOW WHERE YOU STAND',
+    description: `Unlock detailed reports and actionable tips to help you land your destined job. See the magic unlock in real time as you apply and complete the KYS Test.`,
+    image: '/Home/Home1.png',
+  },
+  {
+    title: 'Get personalised learning solution from the best instructor',
+    subtitle: 'PERSONALISED LEARNING',
+    description: `Experience structured learning that guides you on the best path, transforming your confidence in ways you can't imagine.`,
+    image: '/Home/Home1.png',
+  },
+  {
+    title: 'Practice with the best standard material, which will get you ahead of others',
+    subtitle: 'CONSTANT PRACTICE',
+    description: `The right practice material will constantly challenge you & set you up for success. Unlock hours of practice material for exam practice and dedicated to company requirements.`,
+    image: '/Home/Home1.png',
+  },
+  {
+    title: 'Immerse yourself in a holistic technology solution that elevates every aspect of your preparation',
+    subtitle: 'LEVERAGE TECHNOLOGY',
+    description: `Leave mediocrity at the door. Surround yourself with technology solutions, pushing you to continuously excel.`,
+    image: '/Home/Home1.png',
+  },
+];
+  
   return (
 
 <>
@@ -24,113 +52,70 @@ function Home6() {
   </div>
   
 </div>
+<div>
+  {/* left */}
 
+<div className='flex flex-row'>
 
-<div className="flex flex-col items-center min-h-screen p-8">
-  {/* Component 1 */}
-  <div className="flex flex-col md:flex-row items-center h-auto py-5 justify-between">
-    <div className="lg:flex w-full lg:w-1/2 items-center lg:space-x-7">
-      {/* Number Section */}
-      <div className="text-xl  font-semibold text-gray-800">01</div>
-      {/* Text Section */}
-      <div className="md:text-left">
-        <p className="text-sm text-[#7A7A7A]">KNOW WHERE YOU STAND</p>
-        <h3 className="text-2xl md:text-4xl font-medium mb-6 mt-6">
-          Take the KYS Test and discover your readiness towards India's top employers
-        </h3>
-        <p className="text-sm text-[#7A7A7A] mb-1">Unlock detailed reports and actionable tips to help you land your destine job.</p>
-        <p className="text-sm text-[#7A7A7A]">See the magic unlock in real time as you apply and complete the KYS Test.</p>
-      </div>
-    </div>
-    {/* Image Section */}
-    <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
-      <img
-        src="/Home/Home1.png"
-        alt="Description"
-        className="w-full h-auto rounded-lg "
-      />
-    </div>
-  </div>
-
-
-  <div className="flex flex-col md:flex-row items-center h-auto py-5 justify-between">
-    <div className="lg:flex w-full lg:w-1/2 items-center lg:space-x-7">
-
-      <div className="text-xl  font-semibold text-gray-800">02</div>
+<div className='mt-40'>
+  <h3 className='mb-2 text-lg'>01</h3>
+    <img
+    src="/Home/Line2.png"
+    alt="Without Truskill"
+   
   
-      <div className=" md:text-left">
-        <p className="text-sm text-[#7A7a7A]">PERSONALISED LEARNING</p>
-        <h1 className="text-2xl md:text-4xl font-medium text-black mb-6 mt-6">
-        Get personalised learning solution form best instructor.
-
-        </h1>
-        <p className="text-sm text-[#7A7a7A] mb-1">Experience structured learning that guides you on the best path, transforming your confidence in ways you can't imagine.</p>
-      </div>
-    </div>
-
-    <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
-      <img
-        src="/Home/Home1.png"
-        alt="Description"
-        className="w-full h-auto rounded-lg "
-      />
-    </div>
-  </div>
-
+  />
+   <h3 className='mb-2 text-lg'>02</h3>
+    <img
+    src="/Home/Line2.png"
+    alt="Without Truskill"
+   
   
-
-  <div className="flex flex-col md:flex-row items-center h-auto py-5 justify-between">
-    <div className="lg:flex w-full lg:w-1/2 items-center lg:space-x-7">
-
-      <div className="text-xl  font-semibold text-gray-800">03</div>
+  />
+   <h3 className='mb-2 text-lg'>03</h3>
+    <img
+    src="/Home/Line2.png"
+    alt="Without Truskill"
+   
   
-      <div className=" md:text-left">
-        <p className="text-sm text-[#7A7A7A] font-medium">CONSTANT PRACTISE</p>
-        <h1 className="text-2xl md:text-4xl font-medium mb-6 mt-6">
-        Practice with the best standard material, which will get you ahead of others.
-
-        </h1>
-        <p className="text-sm text-[#7A7A7A] font-medium mb-1">The right practise material will constantly challenges you & set you up for success<br></br>Unlock Hours of practise material for Exam practice & dedicated to Company requirement.</p>
-      </div>
-    </div>
-
-    <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
-      <img
-        src="/Home/Home1.png"
-        alt="Description"
-        className="w-full h-auto rounded-lg "
-      />
-    </div>
-  </div>
-
-
-
-
-  <div className="flex flex-col md:flex-row items-center h-auto py-5 justify-between">
-    <div className="lg:flex w-full lg:w-1/2 items-center lg:space-x-7">
-
-      <div className="text-xl  font-semibold text-black">04</div>
+  />
+   <h3 className='mb-2 text-lg'>04</h3>
+    <img
+    src="/Home/Line3.png"
+    alt="Without Truskill"
+   
   
-      <div className=" md:text-left">
-        <p className="text-sm text-[#7A7A7A] font-medium">LEVERAGE TECHNOLOGY</p>
-        <h1 className="text-2xl md:text-4xl font-medium mb-6 mt-6 text-black">
-        Immerse yourself in a holistic technology solution that elevates every aspect of your preparation.
+  />
+      </div>  
 
-        </h1>
-        <p className="text-sm text-[#7A7A7A]  mb-1">Leave mediocrity at Leave mediocrity at the door. Surround yourself with technology solution, pushing you to continuously excel.the door. Surround yourself with smart minds, pushing
-you to cntinuously excel in whatever you do.</p>
-      </div>
+{/* right*/}
+<div className="flex flex-col items-center min-h-screen p-8 ">
+      {sectionsData.map((section, index) => (
+        <div key={index} className="flex flex-col md:flex-row items-center h-auto py-5 justify-between">
+          {/* Text Section */}
+          <div className="lg:flex w-full lg:w-1/2 items-center lg:space-x-7">
+            <div className="md:text-left">
+              <p className="text-sm text-[#7A7A7A]">{section.subtitle}</p>
+              <h3 className="text-2xl md:text-4xl font-medium mb-6 mt-6">
+                {section.title}
+              </h3>
+              <p className="text-sm text-[#7A7A7A] mb-1">{section.description}</p>
+            </div>
+          </div>
+
+          {/* Image Section */}
+          <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
+            <img
+              src={section.image}
+              alt={section.title}
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+        </div>
+      ))}
     </div>
-
-    <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
-      <img
-        src="/Home/Home1.png"
-        alt="Description"
-        className="w-full h-auto rounded-lg "
-      />
-    </div>
-  </div>
-
+{/* end */}
+</div>
 </div>
 </>
 

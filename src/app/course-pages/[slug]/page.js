@@ -63,7 +63,7 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
     const fetchCourseData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:1337/api/course-pages/${slug}?populate=*`
+          `http://145.223.18.76:1337/api/course-pages/${slug}?populate=*`
         );
 
         if (!response.ok) {
@@ -71,6 +71,8 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
         }
 
         const data = await response.json();
+        console.log("data:")
+        console.log(data)
         setCourse(data.data); 
         if (data.data.share_links) {
           setFacebook(data.data.share_links.facebook || facebook);
@@ -149,17 +151,17 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
           </div>
           <div className="mb-4">
           
-          <img
-            src={`http://localhost:1337${course.image.formats.thumbnail.url}`}
+          {/* <img
+            src={`http://145.223.18.76:1337${course.image.formats.thumbnail.url}`}
              className='w-full p-3'
             alt={course.title}
-          />
+          /> */}
         </div>
 
         {course.video_preview?.url && (
   <div className="mb-4">
     <video
-      src={`http://localhost:1337${course.video_preview.url}`}
+      src={`http://145.223.18.76:1337${course.video_preview.url}`}
       className="w-full p-3"
       controls
       alt={course.title}

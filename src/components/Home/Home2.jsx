@@ -4,7 +4,7 @@ function Home2() {
   return (
     <div className="flex justify-center items-center  md:px-8 lg:px-16 w-full mt-6 lg:mt-0 ">
 
-    <div className="flex flex-col lg:flex-row w-full  shadow-lg rounded-lg overflow-hidden border-2 border-[#504c4c33]">
+    <div className="flex flex-col lg:flex-row w-full  shadow-lg rounded-lg overflow-hidden ">
     
       <div className="w-full lg:w-1/2 px-2 pt-4 pb-2 bg-white">
         <p className="text-gray-600 text-lg">

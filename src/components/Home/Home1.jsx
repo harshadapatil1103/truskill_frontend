@@ -7,7 +7,7 @@ function Home1() {
       {/* Main Content Section */}
       <div className="flex flex-col lg:flex-row lg:justify-between items-center mt-24 lg:mt-12">
         <div className="lg:w-1/2 text-center lg:text-left lg:pl-12 h-1/2">
-          <p className="text-lg text-gray-700">WELCOME TO TRUSKILL ACADEMY</p>
+          <p className="text-lg text-gray-700 font-work">WELCOME TO TRUSKILL ACADEMY</p>
           <h1 className="text-4xl lg:text-5xl font-medium mb-6 mt-6">We focus on fostering essential skills for growth and innovation.</h1>
           <p className="text-xl text-gray-700 font-normal">Our goal is to empower individuals with practical, future-ready abilities.</p>
           <div className="flex justify-center lg:justify-start space-x-4 mb-4 mt-4">

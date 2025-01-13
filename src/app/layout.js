@@ -22,8 +22,12 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap"
+          rel="stylesheet"
+        />
         </head>
-      <body className=" text-foreground font-work font-regular">
+      <body className=" text-foreground font-regular" style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 500 }}>
         {/* Navbar */}
         <Navbar />
 

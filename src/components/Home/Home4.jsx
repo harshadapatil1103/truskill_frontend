@@ -13,7 +13,7 @@ function Home4() {
   <img
     src="/Home/Home2.png"
     alt="Without Truskill"
-    className="w-full h-auto mb-4 rounded-lg"
+    className="w-4/5 h-auto mb-4 rounded-lg"
   />
   <ol className="list-disc pl-5 text-black space-y-3 text-xl ">
     <li>Information Overload with No Structure & Direction, makes you Overwhelmed.</li>
@@ -22,6 +22,14 @@ function Home4() {
     <li>All these make the already tough even more, tougher.</li>
   </ol>
 </div>
+    <div>
+    <img
+    src="/Home/Line1.png"
+    alt="Without Truskill"
+    
+  />
+      </div>  
+
 
 {/* Right Section: With Truskill */}
 <div className="flex flex-col items-center w-full max-w-md p-6  rounded-lg space-y-10">
@@ -31,12 +39,13 @@ function Home4() {
   <img
     src="/Home/Home3.png"
     alt="With Truskill"
-    className="w-full h-auto mb-4 rounded-lg"
+    className="w-4/5 h-auto mb-4 rounded-lg"
   />
   <ol className="list-disc pl-5 space-y-3 text-black text-xl">
     <li>Lacking direction? Stuck with a random study plan that's not working?</li>
     <li>Unlock Truskill as your True Companion.</li>
     <li>Grow faster & head toward the goal in a real demonstrated manner.</li>
+    <li>All these make the easy even more, easier.</li>
   </ol>
 </div>
 
