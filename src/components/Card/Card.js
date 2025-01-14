@@ -25,13 +25,13 @@ const Card = ({ cardItem }) => {
   return (
     <div className="card bg-white p-4 rounded-2xl shadow-md  hover:shadow-lg transition-shadow duration-300">
       {/* Card Image */}
-      {/* {cardItem.image && (
+      {cardItem.image && (
         <img
           src={`http://145.223.18.76:1337${cardItem.image.url}`}
           alt={cardItem.heading}
           className="w-full h-40 object-cover rounded-t-2xl p-2"
         />
-      )} */}
+      )}
         {cardItem.category && (
           <p className="text-gray-700 mt-2">
             {cardItem.category}
@@ -42,11 +42,7 @@ const Card = ({ cardItem }) => {
 
         {/* Additional Fields */}
     
-        {cardItem.rating && (
-          <p className="text-gray-700 mt-2">
-            {cardItem.rating}
-          </p>
-        )}
+     
        {cardItem.rating && (
           <div className="flex items-center mt-2">
             {renderStars(Math.round(cardItem.rating))} {/* Convert rating to whole number */}
@@ -61,24 +57,13 @@ const Card = ({ cardItem }) => {
           </p>
       
         </div>
-{cardItem.description && (
-          <p className="text-gray-700 mt-2">
-            ${cardItem.description}
-          </p>
-        )} 
+
               {cardItem.description && (
           <p className="text-gray-700 mt-2">
             {showFullDescription
               ? cardItem.description // Show full description
-              : `${cardItem.description.slice(0, 100)}...`} {/* Show truncated description */}
-            {cardItem.description.length > 100 && (
-              <span
-                onClick={toggleDescription}
-                className="text-gray-400 cursor-pointer ml-2"
-              >
-                {showFullDescription ? "Show Less" : "Read More"}
-              </span>
-            )}
+              : `${cardItem.description.slice(0, 50)}...`} {/* Show truncated description */}
+           
           </p>
         )}
 
