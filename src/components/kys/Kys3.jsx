@@ -22,7 +22,7 @@ Google, Amazon & Airbnb</h2>
 
 
 <div className="w-full md:w-1/2 p-3 md:p-8 bg-white">
-  <img src="images/kys/kys2.png" alt="Image" className="w-full h-auto rounded-lg shadow-md" />
+  <img src="images/kys/kys2.png" alt="Image" className="w-full h-auto" />
 </div>
 
 

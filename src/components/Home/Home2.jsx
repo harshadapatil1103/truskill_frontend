@@ -11,7 +11,7 @@ function Home2() {
           Know your self test
         </p>
         <h2 className="text-2xl font-medium mb-3 mt-3">Benchmark yourself with top product talent</h2>
-        <p className="text-lg font-normal text-gray-600">
+        <p className="text-sm font-normal text-gray-600">
           Upraised's exclusive and free Know Your Self test assesses six skills every
           product manager should have.
         </p>

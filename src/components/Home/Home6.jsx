@@ -99,7 +99,7 @@ const sectionsData =  [
               <h3 className="text-2xl md:text-4xl font-medium mb-6 mt-6">
                 {section.title}
               </h3>
-              <p className="text-sm text-[#7A7A7A] mb-1">{section.description}</p>
+              <p className="text-xs text-[#7A7A7A] mb-1">{section.description}</p>
             </div>
           </div>
 

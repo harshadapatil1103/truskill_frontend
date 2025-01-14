@@ -6,7 +6,7 @@ import Home3 from "../components/Home/Home3";
 import Home4 from "../components/Home/Home4";
 import Home5 from "../components/Home/Home5";
 import Home6 from "../components/Home/Home6";
-import Home7 from "../components/Home/Home7";
+// import Home7 from "../components/Home/Home7";
 import ScrollToTopButton from "../components/ScrollToTopButton";
 import Home8 from "../components/Home/Home8";
 import ContactForm from "../components/Home/Home9";
@@ -20,8 +20,8 @@ function page() {
     <Home4/>
     <Home5/>
     <Home6/>
-    <Home7/>
-     
+    {/* <Home7/> */ }
+     {/* home 7-testimonials component hide temporarily  */}
     <ScrollToTopButton className="justify-right"/>
     <Home8/>
     <ContactForm/>

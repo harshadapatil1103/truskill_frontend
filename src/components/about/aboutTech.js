@@ -9,10 +9,10 @@ const AboutTruskill = () => {
             About Truskill Technology
           </h1>
           <div className="space-y-6 text-gray-600 leading-relaxed">
-            <p>
+            <p className='text-xs'>
             At Truskill Academy, our technology-driven learning solutions 
            offer a student assistance system, educational mentorship, and career advisory services  </p>
-            <p>
+            <p className='text-xs'>
             This system not only prepares but also enhances cognitive skill development,
             which is reflected in advanced student performances.</p>
           </div>

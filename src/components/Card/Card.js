@@ -42,11 +42,11 @@ const Card = ({ cardItem }) => {
 
         {/* Additional Fields */}
     
-        {/* {cardItem.rating && (
+        {cardItem.rating && (
           <p className="text-gray-700 mt-2">
             {cardItem.rating}
           </p>
-        )} */}
+        )}
        {cardItem.rating && (
           <div className="flex items-center mt-2">
             {renderStars(Math.round(cardItem.rating))} {/* Convert rating to whole number */}
@@ -61,11 +61,11 @@ const Card = ({ cardItem }) => {
           </p>
       
         </div>
- {/* {cardItem.description && (
+{cardItem.description && (
           <p className="text-gray-700 mt-2">
             ${cardItem.description}
           </p>
-        )} */}
+        )} 
               {cardItem.description && (
           <p className="text-gray-700 mt-2">
             {showFullDescription

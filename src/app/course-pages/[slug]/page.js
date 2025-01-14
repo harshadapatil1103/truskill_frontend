@@ -48,7 +48,7 @@ const CoursePage = () => {
   };
 
 
-
+  
   const [course, setCourse] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -58,6 +58,8 @@ const CoursePage = () => {
 const [twitter,setTwitter]=useState("https://www.facebook.com");
 const [email,setEmail]=useState("https://www.facebook.com");
 const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
+
+
   useEffect(() => {
     if (!slug) return;
     const fetchCourseData = async () => {
@@ -151,11 +153,11 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
           </div>
           <div className="mb-4">
           
-          {/* <img
+          <img
             src={`http://145.223.18.76:1337${course.image.formats.thumbnail.url}`}
              className='w-full p-3'
             alt={course.title}
-          /> */}
+          />
         </div>
 
         {course.video_preview?.url && (
@@ -231,7 +233,7 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
       <div className="w-full mx-auto mt-8 px-4 flex justify-between items-center bg-gray-100 p-4 rounded-lg">
   {/* Copy Link Section */}
   <button
-    className="bg-white text-black px-2 py-1 rounded-lg shadow-md hover:bg-[#366053] transition duration-200"
+    className="bg-white text-black px-2 py-1 rounded-lg shadow-md hover:bg-[#51d9ae] hover:text-white transition duration-200"
     onClick={handleCopyLink}
   >
     Copy Link

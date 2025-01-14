@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import { Linkedin, Instagram, Twitter, Youtube, GraduationCap } from 'lucide-react';
-
+import Link from 'next/link';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -46,10 +46,11 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-white mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-emerald-500 transition-colors">Home</a></li>
-              <li><a href="#" className="hover:text-emerald-500 transition-colors">About Us</a></li>
+              <li><a href="/" className="hover:text-emerald-500 transition-colors">Home</a></li>
+              <li><a href="/about" className="hover:text-emerald-500 transition-colors">About Us</a></li>
+              <li><a href="/contact" className="hover:text-emerald-500 transition-colors">Contact Us</a></li>
               <li><a href="#" className="hover:text-emerald-500 transition-colors">Gallery</a></li>
-              <li><a href="#" className="hover:text-emerald-500 transition-colors">Courses</a></li>
+              <li><a href="/courses" className="hover:text-emerald-500 transition-colors">Courses</a></li>
             </ul>
           </div>
 
@@ -67,7 +68,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-white mb-4">Legal</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-emerald-500 transition-colors">Privacy Policy</a></li>
+              <li><Link href="/privacypolicy" className="hover:text-emerald-500 transition-colors">Privacy Policy</Link></li>
               <li><a href="#" className="hover:text-emerald-500 transition-colors">Terms and Conditions</a></li>
             </ul>
           </div>

@@ -10,10 +10,10 @@ export default function MagicLoop() {
             <p className="text-gray-700 text-base md:text-lg">
               Focus on <span className="font-semibold">one core skill every week.</span>
             </p>
-            <p className="text-gray-600 text-sm md:text-base">
+            <p className="text-gray-600 text-xs md:text-xs">
               Learn, apply, get feedback, improve, and repeat.
             </p>
-            <p className="text-gray-600 text-sm md:text-base">
+            <p className="text-gray-600 text-xs">
               You will have to commit to investing ~6–7 hrs of dedicated time to
               this program every week.
             </p>

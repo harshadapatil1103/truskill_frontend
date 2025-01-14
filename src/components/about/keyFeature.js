@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import { useState } from "react";
 
 const features = [
   {
@@ -40,6 +42,16 @@ const features = [
 ];
 
 const KeyFeatures = () => {
+  const [showFullDescriptions, setShowFullDescriptions] = useState({});
+
+  // Function to toggle the description view for a specific feature
+  const toggleDescription = (id) => {
+    setShowFullDescriptions((prev) => ({
+      ...prev,
+      [id]: !prev[id], // Toggle the specific feature's visibility
+    }));
+  };
+
   return (
     <div className="py-16 bg-[#FFFFFF]">
       <div className="container mx-auto px-4 lg:px-20">
@@ -60,13 +72,21 @@ const KeyFeatures = () => {
                   {feature.title}
                 </h3>
               </div>
-              <p className="text-gray-600 mb-4">{feature.description}</p>
-              <a
-                href="#"
-                className="text-green-600 font-medium hover:underline"
-              >
-                Read More
-              </a>
+              <div className="text-gray-600 mb-4">
+                <p className="text-gray-700 mt-2 text-xs">
+                  {showFullDescriptions[feature.id]
+                    ? feature.description // Show full description
+                    : `${feature.description.slice(0, 50)}...`} {/* Show truncated description */}
+                  {feature.description.length > 30 && (
+                    <span
+                      onClick={() => toggleDescription(feature.id)}
+                      className="text-gray-400 cursor-pointer ml-2"
+                    >
+                      {showFullDescriptions[feature.id] ? "Show Less" : "Read More"}
+                    </span>
+                  )}
+                </p>
+              </div>
             </div>
           ))}
         </div>

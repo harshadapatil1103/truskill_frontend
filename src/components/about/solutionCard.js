@@ -45,7 +45,7 @@ export default function SolutionCards() {
               <h3 className="text-xl font-semibold text-gray-800 mb-6">
                 {solution.title}
               </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
+              <p className="text-gray-600 text-xs leading-relaxed">
                 {solution.description}
               </p>
             </div>

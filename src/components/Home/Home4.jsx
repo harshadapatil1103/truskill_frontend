@@ -26,6 +26,7 @@ function Home4() {
     <img
     src="/Home/Line1.png"
     alt="Without Truskill"
+    className="hidden lg:block"
     
   />
       </div>  

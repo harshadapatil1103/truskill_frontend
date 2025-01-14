@@ -48,7 +48,7 @@ export default function Home() {
   };
 
   return (
-    <div className="p-6 overflow-x-hidden bg-gray-800">
+    <div className="p-6 overflow-x-hidden bg-zinc-200">
       <h1 className="text-3xl font-semibold text-center mb-10 text-gray-800">Preview of Our Dashboard</h1>
       <div className="relative w-full max-w-6xl mx-auto">
         <Slider {...settings}>
@@ -57,7 +57,7 @@ export default function Home() {
               <div
                 className={`transition-all duration-500 ease-in-out transform ${
                   index === currentIndex
-                    ? 'scale-110 rotate-2 shadow-xl border-4 border-indigo-500'
+                    ? 'scale-150 shadow-xl border-4 border-black'
                     : 'scale-90'
                 }`} // Apply larger scale and shadow to the center image
               >

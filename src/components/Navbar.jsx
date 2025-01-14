@@ -1,4 +1,5 @@
 'use client'
+
 import React, { useState } from 'react';
 import { Menu, X, GraduationCap } from 'lucide-react';
 
@@ -10,12 +11,11 @@ const Navbar = () => {
     { title: 'KYS', href: '/kys' },
     { title: 'Prepare', href: '/courses' },
     { title: 'Learn for free', href: '/resource' },
-    { title: 'Apply for job', href: '/job' },
     { title: 'Contact us', href: '/contact' },
   ];
 
   return (
-    <nav className="bg-white  fixed w-full top-0 z-50 font-poppins font-regular text-gray-800 px-4 py-2 shadow-md">
+    <nav className="bg-white fixed w-full top-0 z-50 font-poppins font-regular text-gray-800 px-4 py-2 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
@@ -33,7 +33,7 @@ const Navbar = () => {
               <a
                 key={link.title}
                 href={link.href}
-                className="text-gray-600 hover:text-emerald-600 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-600 px-3 py-2 text-sm font-medium transition-all  hover:border-b-4 hover:border-emerald-600"
               >
                 {link.title}
               </a>
@@ -42,9 +42,9 @@ const Navbar = () => {
 
           {/* Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors">
+            <a href="https://learn.truskill.in/" className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors hover:border-b-4 hover:border-emerald-600">
               Dashboard
-            </button>
+            </a>
             <button className="px-4 py-2 text-sm font-medium text-white bg-emerald-600 rounded-md hover:bg-emerald-700 transition-colors">
               Log In
             </button>
@@ -75,7 +75,7 @@ const Navbar = () => {
             </a>
           ))}
           <div className="mt-4 space-y-2">
-            <button   className="w-full px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors">
+            <button className="w-full px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors">
               Dashboard
             </button>
             <button className="w-full px-4 py-2 text-sm font-medium text-white bg-emerald-600 rounded-md hover:bg-emerald-700 transition-colors">
