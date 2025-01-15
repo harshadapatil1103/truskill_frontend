@@ -21,9 +21,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a href="/" className="flex items-center space-x-2">
-              <GraduationCap className="h-8 w-8 text-emerald-600" />
-              <span className="text-xl font-semibold text-emerald-600">TruSkill</span>
-              <span className="text-xs text-gray-500 mt-1">Academy</span>
+              <img src='/images/logo/logo.png' className='h-10 w-32'></img>
             </a>
           </div>
 
