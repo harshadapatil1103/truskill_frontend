@@ -28,11 +28,10 @@ function Kys2() {
         Why should you take the KYS test?
       </p>
       <p className="text-[#4E4E4E] text-2xl font-semibold font-poppins">
-        Identify your strengths & blindspots
+      Identify Your Weaknesses and Unlock Your Strengths
       </p>
       <p className="text-black text-base">
-        Understand which product skills you have and take roles suited to your strengths. Build
-        your confidence and perform well.
+      Learn which skills align with your career and what areas need improvement. Build your confidence and tackle any challenge.
       </p>
     </div>
 
@@ -48,10 +47,8 @@ function Kys2() {
      <div className="lg:w-1/3 mx-4 p-6 bg-[#F8F8F8] rounded-lg shadow-md">
      <div className='space-y-2'>
         <p className="text-[#0B5E41] text-sm font-bold">Why should you take the KYS test?</p>
-        <p className="text-[#4E4E4E] text-2xl font-semibold font-poppins">Identify your strengths &
-        blindspots</p>
-        <p className="text-black text-base mb-60">Understand which product skills you haveand take roles suited to your strengths. Build
-    your confidence and perform well.</p>
+        <p className="text-[#4E4E4E] text-2xl font-semibold font-poppins">Stay Ahead of Your Peers</p>
+        <p className="text-black text-base mb-60">Sharpen your cognitive and interpersonal skills along with technical expertise to set yourself apart in interviews</p>
     </div>
     <div className='content-center flex justify-center'>
       <img src='images/kys/kys3.png' className='mx-auto'></img>
@@ -65,7 +62,7 @@ function Kys2() {
         <div className="flex items-start space-x-2">
           <img src='/images/kys/icon1.png'></img>
           <div>
-            <p className="text-[#A7A7A7] text-base">Text Format</p>
+            <p className="text-[#A7A7A7] text-base">Test Format</p>
             <p className="text-black font-semibold text-lg">49 Questions </p>
           </div>
         </div>
@@ -73,7 +70,7 @@ function Kys2() {
         <img src='/images/kys/icon2.png'></img>
           <div>
             <p className="text-[#A7A7A7] text-base">Question Format</p>
-            <p className=" text-black  font-semibold text-lg">Case Studies as MCQ's</p>
+            <p className=" text-black  font-semibold text-lg">skill-specific, scenario-based questions</p>
           </div>
         </div>
         <div className="flex items-start space-x-2">
@@ -87,8 +84,7 @@ function Kys2() {
         <img src='/images/kys/icon4.png'></img>
           <div>
             <p className="text-[#A7A7A7]text-base">Level</p>
-            <p className=" text-black  font-semibold text-lg">Beginner as well as
-            Intermediate </p>
+            <p className=" text-black  font-semibold text-lg">Curated for both beginners and experts </p>
           </div>
         </div>
         </div>

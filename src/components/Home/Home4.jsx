@@ -15,11 +15,11 @@ function Home4() {
     alt="Without Truskill"
     className="w-4/5 h-auto mb-4 rounded-lg"
   />
-  <ol className="list-disc pl-5 text-black space-y-3 text-xl ">
-    <li>Information Overload with No Structure & Direction, makes you Overwhelmed.</li>
-    <li>No tool to Track Progress and Set Goals.</li>
-    <li>Lack of Required modern Tech Solution.</li>
-    <li>All these make the already tough even more, tougher.</li>
+  <ol className="list-disc pl-5 text-black space-y-9 text-xl ">
+    <li>No proper guidance</li>
+    <li>Overwhelmed with countless information</li>
+    <li>Completely lost about your progress</li>
+    <li>Outdated tech which makes you stuck</li>
   </ol>
 </div>
     <div>
@@ -43,10 +43,10 @@ function Home4() {
     className="w-4/5 h-auto mb-4 rounded-lg"
   />
   <ol className="list-disc pl-5 space-y-3 text-black text-xl">
-    <li>Lacking direction? Stuck with a random study plan that's not working?</li>
-    <li>Unlock Truskill as your True Companion.</li>
-    <li>Grow faster & head toward the goal in a real demonstrated manner.</li>
-    <li>All these make the easy even more, easier.</li>
+    <li>Structured learning plans tailored for your growth</li>
+    <li>A reliable source for all the skills you want to learn and benefit from</li>
+    <li>Track each step of your learning journey</li>
+    <li>Achieve your goals with less frustration</li>
   </ol>
 </div>
 

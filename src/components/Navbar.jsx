@@ -28,7 +28,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-10">
             {navLinks.map((link) => (
               <a
                 key={link.title}
@@ -41,8 +41,8 @@ const Navbar = () => {
           </div>
 
           {/* Auth Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
-            <a href="https://learn.truskill.in/" className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors hover:border-b-4 hover:border-emerald-600">
+          <div className="hidden md:flex items-center space-x-6 ml-0">
+            <a href="https://learn.truskill.in/" className="pr-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors hover:border-b-4 hover:border-emerald-600">
               Dashboard
             </a>
             <button className="px-4 py-2 text-sm font-medium text-white bg-emerald-600 rounded-md hover:bg-emerald-700 transition-colors">

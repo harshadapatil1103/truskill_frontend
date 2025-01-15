@@ -1,6 +1,17 @@
-
+"use client";
+import { useState } from "react";
 import Link from "next/link"
 function Home2() {
+
+  const [showVideo, setShowVideo] = useState(false);
+
+  const handlePlayButtonClick = () => {
+    setShowVideo(true);
+  };
+
+  const closeVideo = () => {
+    setShowVideo(false);
+  };
   return (
     <div className="flex justify-center items-center  md:px-8 lg:px-16 w-full mt-6 lg:mt-0 ">
 
@@ -10,25 +21,47 @@ function Home2() {
         <p className="text-gray-600 text-lg">
           Know your self test
         </p>
-        <h2 className="text-2xl font-medium mb-3 mt-3">Benchmark yourself with top product talent</h2>
+        <h2 className="text-2xl font-medium mb-3 mt-3">Benchmark your skills against Top Talent </h2>
         <p className="text-sm font-normal text-gray-600">
-          Upraised's exclusive and free Know Your Self test assesses six skills every
-          product manager should have.
+        Want to know where you stand? Take our Know Yourself Test (KYS test) and compare your skills with top industrialists and professionals.
         </p>
       </div>
     
       <div className="w-full lg:w-1/4 flex flex-col justify-center items-center p-4">
         <Link href="*" className=" px-2 py-2  lg:px-4 lg:py-2 bg-[#0B5E41] text-white rounded-full mb-4">Test Yourself Now</Link>
-        <div className="lg:px-4 lg:py-2 bg-white text-black rounded flex space-x-2">
-          <img src="Home/playbutton.png"></img>
+        <div className="lg:px-4 lg:py-2 bg-white text-black rounded flex space-x-2 cursor-pointer"  onClick={handlePlayButtonClick}>
+        <img src={showVideo ? "Home/pausebutton.png" :"Home/playbutton.png"}></img>
           <p>Learn About<br></br>
           KYS in 2 mins</p>
         </div>
       </div>
     
       <div className="w-full lg:w-1/4 lg:p-8 bg-white">
-        <img src="/Home/kys.jpg" alt="Image" className="w-full h-auto rounded-lg shadow-md" />
+        <img src="/Home/kys.jpg" alt="Image" className="w-full h-auto " />
       </div>
+      {showVideo && (
+        <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center">
+          <div className="bg-white rounded-lg p-4 w-11/12 max-w-md">
+            <button
+              className="text-red-500 font-bold float-right"
+              onClick={closeVideo}
+            >
+              Close
+            </button>
+            <div className="mt-4">
+            <video
+                width="100%"
+                controls
+                autoPlay
+              >
+                <source src="/videos/dummy.mp4" type="video/mp4" />
+                
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      )}
     
     </div>
     </div>

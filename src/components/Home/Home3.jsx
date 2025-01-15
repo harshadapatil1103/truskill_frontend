@@ -10,10 +10,10 @@ function Home3() {
   </p>
   <div className='my-6'>
   <p className="text-2xl md:text-4xl font-medium text-black">
-    Master skills that make you indispensable
+  A place where we help you 
   </p>
   <p className="text-2xl md:text-4xl font-medium text-black">
-    In the shortest possible time.
+  master your skills in a short amount of time.
   </p>
   </div>
   <p className="text-xl text-gray-600">
