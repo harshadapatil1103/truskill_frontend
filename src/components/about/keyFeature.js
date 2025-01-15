@@ -55,7 +55,7 @@ const KeyFeatures = () => {
   return (
     <div className="py-16 bg-[#FFFFFF]">
       <div className="container mx-auto px-4 lg:px-20">
-        <h2 className="text-center text-3xl font-poppins font-semibold text-gray-800 mb-12">
+        <h2 className="text-center text-[30px] font-poppins font-semibold text-gray-800 mb-12">
           Key Features
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -65,15 +65,15 @@ const KeyFeatures = () => {
               className="bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300"
             >
               <div className="flex items-center mb-4">
-                <div className="text-2xl font-bold text-green-600">
+                <div className="text-[22px] font-bold text-green-600">
                   {feature.id.toString().padStart(2, "0")}
                 </div>
-                <h3 className="ml-4 text-xl font-bold text-gray-800">
+                <h3 className="ml-4 text-[22px] font-bold text-gray-800">
                   {feature.title}
                 </h3>
               </div>
               <div className="text-gray-600 mb-4">
-                <p className="text-gray-700 mt-2 text-xs">
+                <p className="text-gray-700 mt-2 text-sm">
                   {showFullDescriptions[feature.id]
                     ? feature.description // Show full description
                     : `${feature.description.slice(0, 50)}...`} {/* Show truncated description */}

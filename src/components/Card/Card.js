@@ -33,12 +33,12 @@ const Card = ({ cardItem }) => {
         />
       )}
         {cardItem.category && (
-          <p className="text-gray-700 mt-2">
+          <p className="text-gray-700 mt-2 text-[14px]">
             {cardItem.category}
           </p>
         )}
       <div className="mt-4">
-        <h3 className="text-lg font-semibold text-gray-800">{cardItem.heading}</h3>
+        <h3 className="text-lg font-semibold text-gray-800 text-[24px]">{cardItem.heading}</h3>
 
         {/* Additional Fields */}
     
@@ -52,14 +52,14 @@ const Card = ({ cardItem }) => {
 
        <div className="flex items-center mt-1">
        <img src="/images/Card/Currency.png" className="h-5 w-5"></img>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-[14px]">
             {cardItem.price}
           </p>
       
         </div>
 
               {cardItem.description && (
-          <p className="text-gray-700 mt-2">
+          <p className="text-gray-700 mt-2 text-[14px]">
             {showFullDescription
               ? cardItem.description // Show full description
               : `${cardItem.description.slice(0, 50)}...`} {/* Show truncated description */}
@@ -71,7 +71,7 @@ const Card = ({ cardItem }) => {
         {cardItem.slug && (
           <Link
             href={`/course-pages/${cardItem.slug}`}
-            className="mt-4 inline-block bg-[#3FC89E] text-white py-2 px-4 rounded-md hover:bg-[#0e362a] transition-colors duration-300"
+            className="text-[16px] mt-4 inline-block bg-[#3FC89E] text-white py-2 px-4 rounded-md hover:bg-[#0e362a] transition-colors duration-300"
           >
             View Course
           </Link>

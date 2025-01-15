@@ -54,7 +54,7 @@ const Course = () => {
 
   return (
     <div>
-      <h1 className="text-4xl font-bold text-center text-black mt-28">
+      <h1 className="text-[40px] font-semibold text-center text-black mt-28">
         Start Your Journey with our Courses
       </h1>
 

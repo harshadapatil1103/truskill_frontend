@@ -15,7 +15,7 @@ function Home4() {
     alt="Without Truskill"
     className="w-4/5 h-auto mb-4 rounded-lg"
   />
-  <ol className="list-disc pl-5 text-black space-y-9 text-xl ">
+  <ol className="list-disc pl-5 text-black space-y-9 text-[22px] ">
     <li>No proper guidance</li>
     <li>Overwhelmed with countless information</li>
     <li>Completely lost about your progress</li>
@@ -42,7 +42,7 @@ function Home4() {
     alt="With Truskill"
     className="w-4/5 h-auto mb-4 rounded-lg"
   />
-  <ol className="list-disc pl-5 space-y-3 text-black text-xl">
+  <ol className="list-disc pl-5 space-y-3 text-black text-[22px]">
     <li>Structured learning plans tailored for your growth</li>
     <li>A reliable source for all the skills you want to learn and benefit from</li>
     <li>Track each step of your learning journey</li>

@@ -36,7 +36,7 @@ const FAQWithScrollingLogos = () => {
     <div className="py-16 bg-[#FFFFFF]">
       {/* Trusted Logos Section */}
       <div className="container mx-auto px-4 lg:px-20 mb-16">
-        <p className="text-center text-lg text-gray-500 mb-4 font-poppins font-semibold">Associated With</p>
+        <p className="text-center text-[30px] text-gray-500 mb-4  font-semibold">Associated With</p>
         <div className="overflow-hidden relative">
           <div
             className="flex space-x-12 animate-scroll"
@@ -56,10 +56,10 @@ const FAQWithScrollingLogos = () => {
 
       {/* FAQ Section */}
       <div className="container mx-auto px-4 lg:px-20">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-base font-semibold text-gray-800 mb-4">
           Can't find what you are looking for?
         </h2>
-        <h3 className="text-4xl font-bold text-green-600 mb-8">Frequently Asked Questions.</h3>
+        <h3 className="text-[40px] font-bold text-green-600 mb-8">Frequently Asked Questions.</h3>
         <div className="space-y-4">
           {faqData.map((faq, index) => (
             <div
@@ -76,7 +76,7 @@ const FAQWithScrollingLogos = () => {
                 </span>
               </div>
               {activeIndex === index && (
-                <p className="text-gray-600 mt-2">{faq.answer}</p>
+                <p className="text-gray-600 mt-2 text-lg">{faq.answer}</p>
               )}
             </div>
           ))}

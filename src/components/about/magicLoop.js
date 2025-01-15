@@ -4,16 +4,16 @@ export default function MagicLoop() {
         <main className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left Section */}
           <div className="space-y-4">
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
+            <h1 className="text-4xl md:text-[40px] font-bold text-gray-800">
               Meet the <span className="text-green-600">magic loop.</span>
             </h1>
-            <p className="text-gray-700 text-base md:text-lg">
+            <p className="text-gray-700 text-lg">
               Focus on <span className="font-semibold">one core skill every week.</span>
             </p>
-            <p className="text-gray-600 text-xs md:text-xs">
+            <p className="text-gray-600 text-lg">
               Learn, apply, get feedback, improve, and repeat.
             </p>
-            <p className="text-gray-600 text-xs">
+            <p className="text-gray-600 text-sm">
               You will have to commit to investing ~6–7 hrs of dedicated time to
               this program every week.
             </p>

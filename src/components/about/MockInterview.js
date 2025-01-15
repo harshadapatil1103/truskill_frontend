@@ -7,15 +7,15 @@ export default function MockInterview() {
           <h1 className="text-3xl md:text-3xl font-poppins font-semibold text-gray-800 mb-4 tracking-wide">
             AI ENABLED REAL MOCK INTERVIEW
           </h1>
-          <p className="text-gray-600 text-xs md:text-xs mb-4 font-medium">
+          <p className="text-gray-600 text-sm mb-4 font-medium">
             Fact - 70%: The best way to prepare for an interview is to practice, practice, practice.
           </p>
-          <p className="text-gray-700 leading-relaxed mb-6 text-xs">
+          <p className="text-gray-700 leading-relaxed mb-6 text-sm">
           It's true when they say, “Practice makes a man perfect.” The key to acing an interview is practice. With our AI-powered mock interviews, we provide diverse and realistic interview simulations along with an interview preparation platform. With an adaptive mock interview platform, it will help students work on their soft skills through regular feedback-driven interview training. Students will build their confidence through practice interviews and refine their answers for better interview outcomes.
           </p>
           
           {/* List of Features with Icons */}
-          <ul className="space-y-3 pt-4 text-xs">
+          <ul className="space-y-3 pt-4 text-sm">
   <li className="flex items-center gap-2">
     <img src="/images/about/checkbox.png" className="w-5 h-5 text-[#006241] border-gray-300" />
     <span className="text-[#006241]">Experience realistic interview scenarios tailored to your profile and job requirements.</span>

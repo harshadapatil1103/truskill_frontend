@@ -10,31 +10,31 @@ const main = () => {
             <div className="w-12 h-px bg-gray-400 my-4"></div>
           </div>
         </div>
-        <h1 className="text-4xl  text-gray-800  font-poppins font-semibold">
+        <h1 className="text-[40px]  text-gray-800  font-poppins font-semibold">
 
           <span>TruSkill Academy</span>
-          <span className="text-emerald-600 font-poppins font-semibold"> is your valuable partner for</span>
-          <br />
-          <span>Campus </span>
-          <span className="text-emerald-600 font-poppins font-semibold" >Placements </span>
-          <span>Training.</span>
+          <span className="text-emerald-600 font-poppins font-semibold"> is your valuable partner for Campus</span>
+         
+         
+          <span className="text-black font-poppins font-semibold" >Placements Training. </span>
+          
         </h1>
 
-        <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed text-[14px]">
         We transform student potential into professional excellence by providing the best campus placement training programs and skill enhancements along with professional career guidance.
         </p>
 
         <div className="grid md:grid-cols-2 gap-12 mt-16">
           <div className="space-y-4">
-            <h2 className="text-4xl font-large  text-gray-800 font-poppins font-semibold">Mission</h2>
-            <p className="text-gray-600 leading-relaxed">
+            <h2 className="text-[30px] font-large  text-gray-800 font-poppins font-semibold">Mission</h2>
+            <p className="text-gray-600 leading-relaxed text-[14px]">
             Our mission is to cultivate problem-solving abilities, creativity, and effective communication through world-class innovative learning strategies.
             </p>
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-4xl font-large text-gray-800 font-poppins font-semibold">Vision</h2>
-            <p className="text-gray-600 leading-relaxed">
+            <h2 className="text-[30px] font-large text-gray-800 font-poppins font-semibold">Vision</h2>
+            <p className="text-gray-600 leading-relaxed text-[14px]">
             Empower students to prepare their critical thinking and enhance cognitive index to achieve the best campus placements in today’s professional landscape
             </p>
           </div>

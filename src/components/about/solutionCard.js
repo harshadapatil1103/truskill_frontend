@@ -33,7 +33,7 @@ export default function SolutionCards() {
   
     return (
       <div className="py-16 px-8 bg-[#ffffff]">
-        <h2 className="text-center text-3xl font-bold text-gray-800 mb-12">
+        <h2 className="text-center text-3xl font-semibold text-gray-800 mb-12">
           Solution For
         </h2>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -42,10 +42,10 @@ export default function SolutionCards() {
               key={solution.id}
               className={`p-8 rounded-lg shadow-lg border ${solution.bgColor} transition-transform transform hover:scale-105`}
             >
-              <h3 className="text-xl font-semibold text-gray-800 mb-6">
+              <h3 className="text-[22px] font-semibold text-gray-800 mb-6">
                 {solution.title}
               </h3>
-              <p className="text-gray-600 text-xs leading-relaxed">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 {solution.description}
               </p>
             </div>

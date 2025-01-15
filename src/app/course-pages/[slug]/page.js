@@ -143,7 +143,7 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
         <div className="lg:flex lg:justify-between">
            <div className="lg:w-2/3">
                    <div className="max-w-4xl mx-auto px-4 mt-24">
-          <h1 className="text-3xl font-bold mb-4">{course.title}</h1>
+          <h1 className="text-[40px] font-bold mb-4 ">{course.title}</h1>
           <div className="mb-4">
           {course.rating && (
           <div className="flex items-center mt-2">
@@ -173,11 +173,11 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
   </div>
 )}
         
-          <p className="mb-2">{course.description}</p>
+          <p className="mb-2 text-[16px]">{course.description}</p>
           
           <div className="mb-11">
          
-            <h1>{course.category}</h1>
+            <p className='text-[16px]'>{course.category}</p>
            
           </div>
        
@@ -196,7 +196,7 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
                      </p>
               </div>
 
-               {data1.map((item)=>( <div key={item.id} className="flex p-2 justify-between">
+               {data1.map((item)=>( <div key={item.id} className="flex p-2 justify-between text-[16px]">
                 <div className='flex space-x-3'>
                  <div>
                     <img src={item.image}></img>
@@ -209,7 +209,7 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
    
 
     {/* Buttons */}
-                   <div className="mt-6 flex flex-col gap-4">
+                   <div className="mt-6 flex flex-col gap-4 text-[16px]">
                        <button className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700  transition duration-300">
                          Add to Cart
                        </button>
@@ -219,8 +219,8 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
                      </div>
 
       {course.features &&( <div className="p-2 border border-gray-200 mt-4">
-        <h2 className="text-xl mb-4">This Course Includes</h2>
-        <ol className="list-disc list-inside">
+        <h2 className="text-[24px] mb-4">This Course Includes</h2>
+        <ol className="list-disc list-inside text-[16px]">
         {course.features.map((feature, index) => (
           <li key={index} className="p-3 text-sm font-semibold">
             {feature.name}

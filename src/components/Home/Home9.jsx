@@ -58,8 +58,8 @@ const ContactForm = () => {
 
     <div className=" w-full max-w-6xl mx-auto pt-0 px-6 pb-6  ">
       <div className="text-center mb-8">
-        <p className="text-lg text-[#A7A7A7] ">CONTACT US</p>
-        <h1 className="text-2xl md:text-4xl font-medium text-black mt-4">
+        <p className=" text-base md:text-lg text-[#A7A7A7] ">CONTACT US</p>
+        <h1 className="text-[40px] md:text-5xl font-medium text-black mt-4">
           "Reach Out and Connect with Us"
         </h1>
       </div>

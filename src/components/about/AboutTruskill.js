@@ -6,22 +6,22 @@ const AboutTruskill = () => {
 <section className="max-w-7xl mx-auto px-8 py-20 mix-blend-color-burn rounded-lg border-4 border-gray-300">
 <div className="grid md:grid-cols-2 gap-16">
         <div>
-          <h1 className="text-[32px] font-large  font-semibold text-gray-900 mb-8">
+          <h1 className="text-[30px] font-large  font-semibold text-gray-900 mb-8">
             About Truskill Technology
           </h1>
           <div className="space-y-6 text-gray-600 leading-relaxed">
-            <p className='text-xs'>
+            <p className='text-sm'>
               Our highly tech-enabled system offers comprehensive student 
               assistance, allowing us to understand individual strengths and 
               weaknesses. Our experienced mentors and career advisors collaborate
             </p>
-            <p className='text-xs'>to create customized strategies for maximum success.</p>
-            <p className='text-xs'>
+            <p className='text-sm'>to create customized strategies for maximum success.</p>
+            <p className='text-sm'>
               Our unique, one-of-a-kind model has been tested and proven to 
               improve students' cognitive index up to three times in PI 
               Assessments,
             </p>
-            <p className='text-xs'>making it a unique and effective solution for skill development.</p>
+            <p className='text-sm'>making it a unique and effective solution for skill development.</p>
           </div>
         </div>
 

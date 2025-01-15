@@ -22,17 +22,17 @@ export default function FAQPage() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center py-10 px-4">
       <div className="w-full max-w-4xl">
-        <h1 className="text-3xl font-bold mb-4">
+        <h1 className="text-[40px] font-bold mb-4">
           Frequently Asked <span className="text-green-600">Questions</span>
         </h1>
-        <p className="text-gray-600 mb-8">
+        <p className="text-gray-600 mb-8 text-[16px]">
           Can't find what you're looking for?{" "}
           <a href="/chat" className="text-blue-500 underline hover:text-blue-700">
             Chat With Us
           </a>
         </p>
 
-        <div className="space-y-6">
+        <div className="space-y-6 text-[18px]">
           {faqs.map((faq, index) => (
             <div
               key={index}
@@ -42,7 +42,7 @@ export default function FAQPage() {
                 className="flex justify-between items-center cursor-pointer"
                 onClick={() => toggleAccordion(index)}
               >
-                <h3 className="text-lg font-medium text-gray-800">{faq.question}</h3>
+                <h3 className=" font-medium text-gray-800">{faq.question}</h3>
                 <span
                   className={`w-8 h-8 flex items-center justify-center rounded-full border border-green-600 text-green-600 text-xl font-bold transition-transform ${
                     activeIndex === index ? "rotate-0" : ""
@@ -52,7 +52,7 @@ export default function FAQPage() {
                 </span>
               </div>
               {activeIndex === index && (
-                <p className="text-gray-600 mt-2">{faq.answer}</p>
+                <p className="text-gray-600 mt-2 ">{faq.answer}</p>
               )}
             </div>
           ))}

@@ -26,10 +26,10 @@ export default function KYSTestExplainer() {
     <main className="max-w-5xl mx-auto px-6 py-12 bg-[#FFFFFF]">
       {/* Header */}
       <div className="text-center mb-12 bg-[#FFFFFF]">
-        <span className="text-emerald-700 text-sm font-medium mb-2 block">
+        <span className="text-emerald-700 text-[14px] md:text-[16px] font-medium mb-2 block">
           About KYS
         </span>
-        <h1 className="text-3xl font-bold text-[#222222]">
+        <h1 className="text-[32px] md:text-[40px] font-semibold text-[#222222]">
           How does the<br />Know Your Self test work?
         </h1>
       </div>
@@ -38,14 +38,14 @@ export default function KYSTestExplainer() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Step 01 Card */}
         <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg hover:border-blue-400 transition-all">
-        <span className="inline-block text-blue-500 text-sm font-medium mb-4 block bg-[#F3F8FE] rounded-full py-1 px-3">
+        <span className="inline-block text-blue-500 text-[12px] md:text-[14px] font-medium mb-4 block bg-[#F3F8FE] rounded-full py-1 px-3">
   Step 01
 </span>
 
-          <h2 className="text-xl font-bold mb-3">
+          <h2 className="text-[24px] md:text-[18px]  font-bold mb-3">
             Answer 49 questions in 50 minutes
           </h2>
-          <p className="text-gray-600 text-sm">
+          <p className="text-gray-600 text-[16px] md:text-[14px]">
             Solve case studies and real-world product problems in 50 minutes and 
             assess yourself as a product manager.
           </p>
@@ -63,13 +63,13 @@ export default function KYSTestExplainer() {
 
         {/* Step 02 Card */}
         <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg hover:border-blue-400 transition-all">
-        <span className="inline-block text-blue-500 text-sm font-medium mb-4 block bg-[#F3F8FE] rounded-full py-1 px-3">
+        <span className="inline-block text-blue-500 text-[12px] md:text-[14px] font-medium mb-4 block bg-[#F3F8FE] rounded-full py-1 px-3">
   Step 02
 </span>
-          <h2 className="text-xl font-bold mb-3">
+          <h2 className="text-[24px] md:text-[18px] font-bold mb-3">
             Get a detailed skill report of the 6 vital product skills
           </h2>
-          <div className="space-y-3">
+          <div className="space-y-3 text-[16px] md:text-[14px]">
             {PRODUCT_SKILLS.map((skill) => (
               <div key={skill.id} className="flex items-center gap-2">
                 <CheckCircle2 className="text-emerald-500 w-5 h-5" />
@@ -89,13 +89,13 @@ export default function KYSTestExplainer() {
 
         {/* Results Card */}
         <div className="bg-[#F7FFF2] shadow-md p-6 rounded-lg border border-gray-200 hover:shadow-lg hover:border-blue-400 transition-all">
-        <span className="inline-block text-blue-500 text-sm font-medium mb-4 block bg-[#FFFFFF] rounded-full py-1 px-3">
+        <span className="inline-block text-blue-500 text-[12px] md:text-[14px] font-medium mb-4 block bg-[#FFFFFF] rounded-full py-1 px-3">
         After Results
 </span>
-          <h2 className="text-xl font-bold mb-3">
+          <h2 className="text-[24px] md:text-[18px] font-bold mb-3">
             Compare your scores with peers and experts
           </h2>
-          <p className="text-gray-600 text-sm">
+          <p className="text-gray-600 text-[16px] md:text-[14px]">
             Measure your growth potential by comparing your report with fellow and 
             expert PMs from around the globe.
           </p>

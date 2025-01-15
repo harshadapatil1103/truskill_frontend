@@ -5,14 +5,14 @@ const AboutTruskill = () => {
     <section className="bg-[#FFFFFF] px-8 py-12">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <h1 className="text-[32px] text-gray-900 mb-8 font-poppins font-semibold">
+          <h1 className="text-[30px] text-gray-900 mb-8 font-poppins font-semibold">
             About Truskill Technology
           </h1>
           <div className="space-y-6 text-gray-600 leading-relaxed">
-            <p className='text-xs'>
+            <p className='text-sm'>
             At Truskill Academy, our technology-driven learning solutions 
            offer a student assistance system, educational mentorship, and career advisory services  </p>
-            <p className='text-xs'>
+            <p className='text-sm'>
             This system not only prepares but also enhances cognitive skill development,
             which is reflected in advanced student performances.</p>
           </div>
