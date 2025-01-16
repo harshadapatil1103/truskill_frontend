@@ -7,7 +7,7 @@ const CollegeAssistanceModule = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 items-center">
         {/* Left column - text content */}
         <div className="space-y-6 md:ml-8"> {/* Increased left margin on larger screens */}
-          <h1 className="text-3xl md:text-3xl font-poppins font-semibold text-gray-900 mb-6 tracking-wide">
+          <h1 className="text-3xl md:text-3xl  font-semibold text-gray-900 mb-6 tracking-wide">
             COLLEGE ASSISTANCE MODULE (FOR INSTITUTE USE)
           </h1>
           <p className="text-sm text-gray-600 mb-6 ">
@@ -46,11 +46,11 @@ const CollegeAssistanceModule = () => {
 
         {/* Right column - Image */}
         <div className="flex justify-center items-center md:mr-4"> {/* Reduced right margin */}
-          <Card className="overflow-hidden max-w-md rounded-2xl shadow-xl hover:shadow-2xl transition-all">
+          <Card className="overflow-hidden max-w-md  ">
             <img 
-              src="/images/about/about_us_1.jpeg" 
+              src="/images/about/aboutUs7.png" 
               alt="College hallway"
-              className="w-full max-w-full rounded-lg shadow-xl transition-transform transform hover:scale-105 duration-300"
+              className="w-full max-w-full transition-transform transform hover:scale-105 duration-300"
             />
           </Card>
         </div>

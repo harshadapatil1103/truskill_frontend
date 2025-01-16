@@ -4,7 +4,7 @@ export default function MockInterview() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-12 items-center">
         {/* Right Section (Text Content) */}
         <div className="space-y-6 p-8 bg-white rounded-lg ">
-          <h1 className="text-3xl md:text-3xl font-poppins font-semibold text-gray-800 mb-4 tracking-wide">
+          <h1 className="text-3xl md:text-3xl font-semibold text-gray-800 mb-4 tracking-wide">
             AI ENABLED REAL MOCK INTERVIEW
           </h1>
           <p className="text-gray-600 text-sm mb-4 font-medium">
@@ -43,9 +43,9 @@ export default function MockInterview() {
           {/* Image with Hover Effect */}
           <div className="space-y-6 md:space-y-4">
             <img
-              src="/images/about/about_us_2.jpeg"
+              src="/images/about/aboutUs6.png"
               alt="Office"
-              className="w-full max-w-lg rounded-lg shadow-xl hover:scale-105 transition-transform duration-300 transform"
+              className="w-full max-w-lg  hover:scale-105 transition-transform duration-300 transform"
             />
             <p className="text-gray-600 text-sm italic mt-10">
             "The best way to prepare for an interview is to practice, practice, practice."

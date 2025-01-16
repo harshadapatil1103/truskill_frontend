@@ -97,7 +97,7 @@ const ResumeMaker = () => {
           <div className="absolute left-0 -z-10 w-full h-full items-center justify-center" />
           <div className="my-7">
             <img
-              src="/images/about/about_us_1.jpeg"
+              src="/images/about/aboutUs5.png"
               alt="Office interior"
               className="w-full rounded"
             />

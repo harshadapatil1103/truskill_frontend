@@ -6,9 +6,9 @@ const AboutTruskill = () => {
 <section className="max-w-7xl mx-auto px-8 py-20 mix-blend-color-burn rounded-lg border-4 border-gray-300">
 <div className="grid md:grid-cols-2 gap-16">
         <div>
-          <h1 className="text-[30px] font-large  font-semibold text-gray-900 mb-8">
-            About Truskill Technology
-          </h1>
+          <h4 className="text-[30px] font-semibold text-gray-900 mb-8"  style={{ textTransform: 'uppercase' }}>
+          About Truskill Technology
+          </h4>
           <div className="space-y-6 text-gray-600 leading-relaxed">
             <p className='text-sm'>
               Our highly tech-enabled system offers comprehensive student 

@@ -45,7 +45,7 @@ export default function TechLibrary() {
           <div className="absolute left-0 -z-10 w-full h-full " />
           <div className="space-y-6">
             <img 
-              src="/images/about/office.svg" 
+              src="/images/about/aboutUs3.png" 
               alt="Office interior"
               className="w-50 rounded"
             />

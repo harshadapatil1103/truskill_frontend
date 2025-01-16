@@ -36,7 +36,7 @@ const FAQWithScrollingLogos = () => {
     <div className="py-16 bg-[#FFFFFF]">
       {/* Trusted Logos Section */}
       <div className="container mx-auto px-4 lg:px-20 mb-16">
-        <p className="text-center text-[30px] text-gray-500 mb-4  font-semibold">Associated With</p>
+        <p className="text-center text-[30px] text-black mb-4  font-semibold">Associated With</p>
         <div className="overflow-hidden relative">
           <div
             className="flex space-x-12 animate-scroll"

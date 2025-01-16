@@ -48,7 +48,7 @@ function Home6() {
               </div>
               <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
                 <img
-                  src="/Home/Home1.png"
+                  src="/Home/Home5.png"
                   alt="Take a KYS test"
                   className="w-full h-auto rounded-lg"
                 />
@@ -76,7 +76,7 @@ function Home6() {
               </div>
               <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
                 <img
-                  src="/Home/Home1.png"
+                  src="/Home/Home6.png"
                   alt="Personalized Learning Paths"
                   className="w-full h-auto rounded-lg"
                 />
@@ -107,7 +107,7 @@ function Home6() {
               </div>
               <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
                 <img
-                  src="/Home/Home1.png"
+                  src="/Home/Home7.png"
                   alt="Hands-on Practice"
                   className="w-full h-auto rounded-lg"
                 />
@@ -135,7 +135,7 @@ function Home6() {
               </div>
               <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
                 <img
-                  src="/Home/Home1.png"
+                  src="/Home/Home8.png"
                   alt="Cutting-edge technology"
                   className="w-full h-auto rounded-lg"
                 />

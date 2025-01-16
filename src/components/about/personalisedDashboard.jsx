@@ -9,7 +9,7 @@ const PersonalisedDashboard = () => {
           <div className="absolute left-0 -z-10 w-full h-full " />
           <div className="space-y-6">
             <img 
-              src="/images/about/office.svg" 
+              src="/images/about/aboutUs2.png" 
               alt="Office interior"
               className="w-full rounded"
             />
@@ -23,7 +23,7 @@ const PersonalisedDashboard = () => {
 
         {/* Text Content - Appears first on mobile, second on desktop */}
         <div className="order-1 md:order-2 space-y-6">
-          <h1 className="text-3xl font-bold">PERSONALIZED DASHBOARD</h1>
+          <h1 className="text-3xl font-semibold">PERSONALIZED DASHBOARD</h1>
             <p className="text-gray-600 text-sm">Fact - Personalized Dashboard learning has been shown to increase student engagement by up to 70%.
           </p>
           <p className="text-gray-600 v text-sm">Our student assistance, enabled by advanced technology, offers adaptive learning approaches, customized exam preparation, along with a performance tracking system that helps each student understand their best potential and strengths.</p>
@@ -31,9 +31,9 @@ const PersonalisedDashboard = () => {
           
           <h2 className="text-xl text-[#0B5E41]">About,</h2>
           
-          <p className="text-gray-600 text-sm">Each student has the main control to personalize their resources for exam preparation. They have video learning platforms targeting various subjects and a mock test simulation to stay updated with their preparation for campus placements and training. A comprehensive student learning solution also provides an engaging platform among the students.</p>
+          <p className="text-gray-600 text-sm">Your main control center for efficient exam preparation. You have access to specially picked videos, practice questions, and mock tests to address your needs and your abilities. Stay on top of your learning, carry out performance analysis, and be successful in exams.
+          </p>
           
-          <p className="text-gray-600 text-sm">Our technology-enabled system has been proven to improve cognitive index up to 3X in PI assessments, unlocking student potential for success with the help of our intelligent educational support.</p>
           
 
 
