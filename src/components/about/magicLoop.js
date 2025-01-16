@@ -24,7 +24,7 @@ export default function MagicLoop() {
             {/* Placeholder for the image */}
             <div className="w-full max-w-md h-96  rounded-lg flex justify-center items-center">
             <img
-  src="/images/about/aboutUs8.png"
+  src="/images/about/AboutUs8.png"
   alt="Magic Loop"
   className="w-full max-w-md h-auto"
 />

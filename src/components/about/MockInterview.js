@@ -43,7 +43,7 @@ export default function MockInterview() {
           {/* Image with Hover Effect */}
           <div className="space-y-6 md:space-y-4">
             <img
-              src="/images/about/aboutUs6.png"
+              src="/images/about/AboutUs6.png"
               alt="Office"
               className="w-full max-w-lg  hover:scale-105 transition-transform duration-300 transform"
             />

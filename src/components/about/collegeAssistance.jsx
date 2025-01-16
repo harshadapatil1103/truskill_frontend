@@ -48,7 +48,7 @@ const CollegeAssistanceModule = () => {
         <div className="flex justify-center items-center md:mr-4"> {/* Reduced right margin */}
           <Card className="overflow-hidden max-w-md  ">
             <img 
-              src="/images/about/aboutUs7.png" 
+              src="/images/about/AboutUs7.png" 
               alt="College hallway"
               className="w-full max-w-full transition-transform transform hover:scale-105 duration-300"
             />

@@ -7,7 +7,7 @@ export default function ProgressTracker() {
           <div className="absolute left-0 -z-10 w-full h-full " />
           <div className="space-y-6">
             <img 
-              src="/images/about/aboutUs4.png" 
+              src="/images/about/AboutUs4.png" 
               alt="Office interior"
               className="w-auto rounded"
             />
