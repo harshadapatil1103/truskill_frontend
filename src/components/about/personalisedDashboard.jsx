@@ -9,7 +9,7 @@ const PersonalisedDashboard = () => {
           <div className="absolute left-0 -z-10 w-full h-full " />
           <div className="space-y-6">
             <img 
-              src="/images/about/aboutUs2.png" 
+              src="/images/about/AboutUs2.png" 
               alt="Office interior"
               className="w-full rounded"
             />
