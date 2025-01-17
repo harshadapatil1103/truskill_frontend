@@ -23,7 +23,7 @@ export default function FAQPage() {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center py-10 px-4">
       <div className="w-full max-w-4xl">
         <h1 className="text-[40px] font-bold mb-4">
-          Frequently Asked <span className="text-green-600">Questions</span>
+          Frequently Asked <span className="text-[#3b9b72]">Questions</span>
         </h1>
         <p className="text-gray-600 mb-8 text-[16px]">
           Can't find what you're looking for?{" "}
@@ -44,7 +44,7 @@ export default function FAQPage() {
               >
                 <h3 className=" font-medium text-gray-800">{faq.question}</h3>
                 <span
-                  className={`w-8 h-8 flex items-center justify-center rounded-full border border-green-600 text-green-600 text-xl font-bold transition-transform ${
+                  className={`w-8 h-8 flex items-center justify-center rounded-full border border-[#3b9b72] text-[#3b9b72] text-xl font-bold transition-transform ${
                     activeIndex === index ? "rotate-0" : ""
                   }`}
                 >

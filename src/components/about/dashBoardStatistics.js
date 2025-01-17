@@ -1,9 +1,9 @@
-'use client'
+'use client';
+
 import { useState } from 'react';
 import Slider from 'react-slick';
 import Image from 'next/image';
-import { FaChevronLeft, FaChevronRight,} from 'react-icons/fa';
-import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";
+import { FaCircleChevronLeft, FaCircleChevronRight } from 'react-icons/fa6';
 
 export default function Home() {
   const images = [
@@ -19,7 +19,7 @@ export default function Home() {
   const settings = {
     centerMode: true,
     infinite: true,
-    centerPadding: '0',
+    centerPadding: '0', // No padding for a tighter layout
     slidesToShow: 3,
     speed: 500,
     focusOnSelect: true,
@@ -28,12 +28,12 @@ export default function Home() {
     },
     prevArrow: (
       <div className="slick-arrow slick-prev absolute top-1/2 left-0 transform -translate-y-1/2 z-10 text-3xl text-black cursor-pointer transition-opacity">
-        <FaCircleChevronLeft/>
+        <FaCircleChevronLeft />
       </div>
     ),
     nextArrow: (
       <div className="slick-arrow slick-next absolute top-1/2 right-0 transform -translate-y-1/2 z-10 text-3xl text-gray-700 cursor-pointer opacity-50 hover:opacity-100 transition-opacity">
-       <FaCircleChevronRight/>
+        <FaCircleChevronRight />
       </div>
     ),
     responsive: [
@@ -48,18 +48,20 @@ export default function Home() {
   };
 
   return (
-    <div className="p-6 overflow-x-hidden bg-zinc-200">
-      <h1 className="text-3xl font-semibold text-center mb-10 text-gray-800">Preview of Our Dashboard</h1>
-      <div className="relative w-full max-w-6xl mx-auto">
+    <div className="p-4 overflow-x-hidden  mb-5 mt-5">
+      <h1 className="text-[24px] md:text-3xl font-semibold text-center mb-15 text-gray-800 uppercase">
+        Preview of Our Dashboard
+      </h1>
+      <div className="relative w-full max-w-6xl mx-auto md:mt-24 mb-14 ">
         <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index} className="flex justify-center items-center">
+            <div key={index} className="flex items-center">
               <div
-                className={`transition-all duration-500 ease-in-out transform ${
+                className={`transition-all duration-500 ease-in-out transform mx-4 ${
                   index === currentIndex
-                    ? 'scale-150 shadow-xl border-4 border-black'
-                    : 'scale-90'
-                }`} // Apply larger scale and shadow to the center image
+                    ? 'scale-125 shadow-xl border-4 border-black'
+                    : 'scale-75'
+                }`} // Larger scale for center slide, smaller for others
               >
                 <Image
                   src={image}
@@ -73,6 +75,7 @@ export default function Home() {
           ))}
         </Slider>
       </div>
+    
     </div>
   );
 }

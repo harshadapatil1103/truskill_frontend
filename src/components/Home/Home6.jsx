@@ -34,14 +34,14 @@ function Home6() {
             <div className="flex flex-col md:flex-row items-center h-auto py-5">
               <div className="lg:flex w-full lg:w-1/2 items-center lg:space-x-7 lg:space-y-5">
                 <div className="md:text-left">
-                  <p className="text-xs text-[#7A7A7A] uppercase">Know Your Skill</p>
+                  <p className="text-xs text-[#A7A7A7] uppercase">Know Your Skill</p>
                   <h4 className="text-xl md:text-[22px] lg:text-[38px] font-medium mt-6 mb-3">
                     Take a KYS test to unlock 
                   </h4>
                   <h4 className="text-xl md:text-[22px] lg:text-[38px] font-medium mb-6 ">
                   strength and potential
                   </h4>
-                  <p className=" text-xs lg:text-sm text-[#7A7A7A] my-3 py-5">
+                  <p className=" text-xs lg:text-sm text-[#A7A7A7] my-3 py-5">
                     Unlock detailed reports and actionable tips to help you land your destined job. See the magic unlock in real time as you apply and complete the KYS Test.
                   </p>
                 </div>
@@ -59,7 +59,7 @@ function Home6() {
             <div className="flex flex-col md:flex-row items-center h-auto py-5">
               <div className="lg:flex w-full lg:w-1/2 items-center lg:space-x-7 lg:space-y-5">
                 <div className="md:text-left">
-                  <p className="text-xs text-[#7A7A7A] uppercase">Personalized Learning Paths</p>
+                  <p className="text-xs text-[#A7A7A7] uppercase">Personalized Learning Paths</p>
                   <h4 className="text-xl md:text-[22px] lg:text-[38px] font-medium mt-6 mb-3">
                     Track each step and learn at 
                   </h4>
@@ -69,7 +69,7 @@ function Home6() {
                   <h4 className="text-xl md:text-[22px] lg:text-[38px] font-medium mb-6">
                    customized plans
                   </h4>
-                  <p className=" text-xs lg:text-sm text-[#7A7A7A] my-3 py-5">
+                  <p className=" text-xs lg:text-sm text-[#A7A7A7] my-3 py-5">
                     Experience structured learning that guides you on the best path, transforming your confidence in ways you can't imagine.
                   </p>
                 </div>
@@ -87,7 +87,7 @@ function Home6() {
             <div className="flex flex-col md:flex-row items-center h-auto py-5">
               <div className="lg:flex w-full lg:w-1/2 items-center lg:space-x-7 lg:space-y-5">
                 <div className="md:text-left">
-                  <p className="text-xs text-[#7A7A7A] uppercase">Hands-on Practice</p>
+                  <p className="text-xs text-[#A7A7A7] uppercase">Hands-on Practice</p>
                   <h4 className="text-xl md:text-[22px] lg:text-[38px] font-medium mt-6 mb-3">
                     With constant practice, not 
                   </h4>
@@ -100,7 +100,7 @@ function Home6() {
                   <h4 className="text-xl md:text-[22px] lg:text-[38px] font-medium mb-6">
                   concept practically
                   </h4>
-                  <p className=" text-xs lg:text-sm text-[#7A7A7A] my-3 py-5">
+                  <p className=" text-xs lg:text-sm text-[#A7A7A7] my-3 py-5">
                     The right practice material will constantly challenge you & set you up for success. Unlock hours of practice material for exam practice and dedicated to company requirements.
                   </p>
                 </div>
@@ -118,7 +118,7 @@ function Home6() {
             <div className="flex flex-col md:flex-row items-center h-auto py-5">
               <div className="lg:flex w-full lg:w-1/2 items-center lg:space-x-7 lg:space-y-5">
                 <div className="md:text-left">
-                  <p className="text-xs text-[#7A7A7A] uppercase">Cutting-edge technology</p>
+                  <p className="text-xs text-[#A7A7A7] uppercase">Cutting-edge technology</p>
                   <h4 className="text-xl md:text-[22px] lg:text-[38px] font-medium mt-6 mb-3">
                     Leverage our technology,
                   </h4>
@@ -128,7 +128,7 @@ function Home6() {
                   <h4 className="text-xl md:text-[22px] lg:text-[38px] font-medium mb-6">
                      preparation and growth
                   </h4>
-                  <p className=" text-xs lg:text-sm text-[#7A7A7A] my-3 py-5">
+                  <p className=" text-xs lg:text-sm text-[#A7A7A7] my-3 py-5">
                     Leave mediocrity at the door. Surround yourself with technology solutions, pushing you to continuously excel.
                   </p>
                 </div>

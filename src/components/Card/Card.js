@@ -71,7 +71,7 @@ const Card = ({ cardItem }) => {
         {cardItem.slug && (
           <Link
             href={`/course-pages/${cardItem.slug}`}
-            className="text-[16px] mt-4 inline-block bg-[#3FC89E] text-white py-2 px-4 rounded-md hover:bg-[#0e362a] transition-colors duration-300"
+            className="text-[16px] mt-4 inline-block bg-[#3b9b72] text-white py-2 px-4 rounded-md hover:bg-[#0e362a] transition-colors duration-300"
           >
             View Course
           </Link>

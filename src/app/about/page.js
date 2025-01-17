@@ -14,6 +14,7 @@ import DashboardStatistics from '@/src/components/about/dashBoardStatistics';
 import FAQWithScrollingLogos from '@/src/components/about/faqWithScroll';
 import MagicLoop from '@/src/components/about/magicLoop';
 import ScrollToTopButton from '@/src/components/ScrollToTopButton';
+import Statitics from '@/src/components/about/Statistics';
 
 const TruSkillAcademy = () => {
   return (
@@ -31,6 +32,7 @@ const TruSkillAcademy = () => {
       <SolutionCard/>
       <KeyFeatures/>
       <DashboardStatistics/> 
+      <Statitics/>
       <FAQWithScrollingLogos/>
       <ScrollToTopButton/>
       

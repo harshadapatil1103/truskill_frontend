@@ -8,14 +8,12 @@ function Kys3() {
    
     
 <div className="w-full md:w-1/2 p-5 bg-white">
-  <p className="text-[#3B9B72] text-[12px] md:text-[14px] font-semibold">
-    Trusted by
+  <p className="text-[#3b9b72] text-[12px] md:text-[14px] font-semibold">
+  Evaluate for
   </p>
-  <h2 className="text-[32] md:text-[40px] font-semibold mb-4 mt-4">The KYS Test is built
-with insights from top PMs at
-Google, Amazon & Airbnb</h2>
+  <h2 className="text-[32] md:text-[40px] font-semibold mb-4 mt-4">The KYR Test is built with recruiters insights from India's top emplyers. TCS, Accenture, Infosys and more.</h2>
   <p className="text-sm md:text-base text-gray-600">
-  Product leaders use KYS skill report to build empowered product teams
+  Aspirants can use KYR test report to build result driven actions
   </p>
 </div>
 

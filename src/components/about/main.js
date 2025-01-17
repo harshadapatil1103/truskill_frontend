@@ -2,7 +2,7 @@ import React from 'react'
 
 const main = () => {
     return (
-<div className="min-h-screen bg-[#C3F2E5] bg-hero-pattern bg-cover bg-blend-lighten mt-20">    <main className="max-w-4xl mx-auto px-4 py-12 ">
+<div className="min-h-screen bg-[#C3F2E5] bg-hero-pattern bg-cover bg-blend-lighten mt-20 w-full">    <main className=" w-full md:max-w-4xl md:mx-auto px-4 py-12 ">
       <div className="text-center space-y-8">
         <div className="space-y-2">
           <p className="text-sm uppercase tracking-wider font-work font-regular ">ABOUT US</p>
@@ -12,8 +12,8 @@ const main = () => {
         </div>
         <h1 className="text-[40px]  text-gray-800  font-poppins font-semibold">
 
-          <span>TruSkill Academy</span>
-          <span className="text-emerald-600 font-poppins font-semibold"> is your valuable partner for Campus</span>
+          <span>TruSkill Academy is your </span>
+          <span className="text-[#3b9b72] font-poppins font-semibold">valuable partner for Campus </span>
          
          
           <span className="text-black font-poppins font-semibold" >Placements Training. </span>

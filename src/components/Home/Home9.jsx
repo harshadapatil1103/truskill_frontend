@@ -65,7 +65,7 @@ const ContactForm = () => {
       </div>
 
       {status === "success" && (
-        <p className="text-green-600 text-center mb-4">Message sent successfully!</p>
+        <p className="text-[#3b9b72] text-center mb-4">Message sent successfully!</p>
       )}
       {status === "error" && (
         <p className="text-red-600 text-center mb-4">
@@ -80,7 +80,7 @@ const ContactForm = () => {
               <div>
                 <label
                   htmlFor="firstName"
-                  className="block text-sm font-medium text-gray-700 "
+                  className="block text-sm font-medium text-[#A7A7A7] "
                 >
                   First Name
                 </label>
@@ -97,7 +97,7 @@ const ContactForm = () => {
               <div>
                 <label
                   htmlFor="lastName"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-[#A7A7A7]"
                 >
                   Last Name
                 </label>
@@ -116,7 +116,7 @@ const ContactForm = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-[#A7A7A7]"
               >
                 Email
               </label>
@@ -135,7 +135,7 @@ const ContactForm = () => {
               <div>
                 <label
                   htmlFor="countryCode"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-[#A7A7A7]"
                 >
                   Country Code
                 </label>
@@ -155,7 +155,7 @@ const ContactForm = () => {
               <div className="flex-1">
                 <label
                   htmlFor="phone"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-[#A7A7A7]"
                 >
                   Phone Number
                 </label>
@@ -163,7 +163,7 @@ const ContactForm = () => {
                   id="phone"
                   type="tel"
                   placeholder="XXX-XX-XXXXX"
-                  className="w-full p-3 rounded-lg border border-gray-600 text-sm"
+                  className="w-full p-3 rounded-lg border border-gray-100 text-sm"
                 />
               </div>
             </div>
@@ -171,7 +171,7 @@ const ContactForm = () => {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-[#A7A7A7]"
               >
                 Message
               </label>

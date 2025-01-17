@@ -33,10 +33,10 @@ const FAQWithScrollingLogos = () => {
   };
 
   return (
-    <div className="py-16 bg-[#FFFFFF]">
+    <div className="py-16 bg-[#FFFFFF] mt-5">
       {/* Trusted Logos Section */}
       <div className="container mx-auto px-4 lg:px-20 mb-16">
-        <p className="text-center text-[30px] text-black mb-4  font-semibold">Associated With</p>
+        <p className="text-center text-[24px] md:text-[30px] text-gray-900 mb-7  font-semibold uppercase">Associated With</p>
         <div className="overflow-hidden relative">
           <div
             className="flex space-x-12 animate-scroll"
@@ -59,7 +59,7 @@ const FAQWithScrollingLogos = () => {
         <h2 className="text-base font-semibold text-gray-800 mb-4">
           Can't find what you are looking for?
         </h2>
-        <h3 className="text-[40px] font-bold text-green-600 mb-8">Frequently Asked Questions.</h3>
+        <h3 className="text-[40px] font-bold text-[#3b9b72] mb-8">Frequently Asked Questions.</h3>
         <div className="space-y-4">
           {faqData.map((faq, index) => (
             <div
@@ -68,7 +68,7 @@ const FAQWithScrollingLogos = () => {
               onClick={() => toggleFAQ(index)}
             >
               <div className="flex justify-between items-center">
-                <h4 className="text-lg font-medium text-gray-800">
+                <h4 className="text-lg font-medium text-gray-900">
                   {faq.question}
                 </h4>
                 <span className="text-gray-500">

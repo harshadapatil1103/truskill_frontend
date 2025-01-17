@@ -28,7 +28,7 @@ function Home2() {
       </div>
     
       <div className="w-full lg:w-1/4 flex flex-col justify-center items-center p-4">
-        <Link href="*" className=" px-2 py-2  lg:px-4 lg:py-2 bg-[#0B5E41] text-white rounded-full text-sm mb-4 lg:text-xl">Test Yourself Now</Link>
+        <Link href="*" className=" px-2 py-2  lg:px-4 lg:py-2 bg-[#3b9b72] text-white rounded-full text-sm mb-4 lg:text-xl">Test Yourself Now</Link>
         <div className="lg:px-4 lg:py-2 bg-white text-black rounded flex space-x-2 cursor-pointer"  onClick={handlePlayButtonClick}>
         <img src={showVideo ? "Home/pausebutton.png" :"Home/playbutton.png"}></img>
           <p className="text-sm">Learn About<br></br>

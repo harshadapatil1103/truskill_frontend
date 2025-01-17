@@ -3,7 +3,7 @@ export default function KYS7() {
     return (
       <div className="bg-[#FDF7F3] py-16">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
-          <div className="text-emerald-700 text-[16px] mb-3">
+          <div className="text-[#3b9b72] text-[16px] mb-3">
             What are you waiting for?
           </div>
           
@@ -17,13 +17,13 @@ export default function KYS7() {
   
           <div className="flex items-center justify-center gap-4">
             <button 
-              className="bg-emerald-700 text-white px-6 py-3 rounded-full text-[16px] font-medium hover:bg-emerald-800 transition-colors"
+              className="bg-[#3b9b72] text-white px-6 py-3 rounded-full text-[16px] font-medium hover:bg-[#3b9b72] transition-colors"
             >
               Test Yourself, Now
             </button>
             
             <button 
-              className="border border-emerald-700 text-emerald-700 px-6 py-3 rounded-full text-[16px] font-medium hover:bg-emerald-50 transition-colors"
+              className="border border-[#3b9b72] text-[#3b9b72] px-6 py-3 rounded-full text-[16px] font-medium hover:bg-emerald-50 transition-colors"
             >
               Set a Reminder
             </button>

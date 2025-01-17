@@ -6,12 +6,12 @@ import { CheckCircle2 } from 'lucide-react'
 
 // Constants
 const PRODUCT_SKILLS = [
-  { id: 'ps', name: 'Product Sense' },
-  { id: 'tu', name: 'Technical Understanding' },
-  { id: 'dde', name: 'Data Driven & Experimentive' },
-  { id: 'prob', name: 'Problem Solving' },
-  { id: 'comm', name: 'Communication Skills' },
-  { id: 'ro', name: 'Result Orientation' },
+  { id: 'ps', name: 'Quantitative Aptitude' },
+  { id: 'tu', name: 'Logical Reasoning' },
+  { id: 'dde', name: 'Data Intepretation' },
+  { id: 'prob', name: 'Verbal Ability' },
+  { id: 'comm', name: 'Technical Skills' },
+
 ]
 
 // Metadata for Next.js
@@ -26,11 +26,12 @@ export default function KYSTestExplainer() {
     <main className="max-w-5xl mx-auto px-6 py-12 bg-[#FFFFFF]">
       {/* Header */}
       <div className="text-center mb-12 bg-[#FFFFFF]">
-        <span className="text-emerald-700 text-[14px] md:text-[16px] font-medium mb-2 block">
-          About KYS
+        <span className="text-[#3b9b72] text-[14px] md:text-[16px] font-medium mb-2 block">
+        About KYR
         </span>
         <h1 className="text-[32px] md:text-[40px] font-semibold text-[#222222]">
-          How does the<br />Know Your Self test work?
+        How does the
+        <br />Know Your Reflection test work?
         </h1>
       </div>
 
@@ -43,11 +44,11 @@ export default function KYSTestExplainer() {
 </span>
 
           <h2 className="text-[24px] md:text-[18px]  font-bold mb-3">
-            Answer 49 questions in 50 minutes
+          Answer 50 questions in 60 minutes
           </h2>
           <p className="text-gray-600 text-[16px] md:text-[14px]">
-            Solve case studies and real-world product problems in 50 minutes and 
-            assess yourself as a product manager.
+          Solve 50 Curated MCQ problems in 60 minutes and assess your readiness as a potential aspirant.
+
           </p>
           <div className="mt-4 flex justify-center">
           <div className="w-32 h-32 bg-gray-100 rounded-lg" aria-label="Checklist illustration">
@@ -67,23 +68,36 @@ export default function KYSTestExplainer() {
   Step 02
 </span>
           <h2 className="text-[24px] md:text-[18px] font-bold mb-3">
-            Get a detailed skill report of the 6 vital product skills
+          Get a detailed readiness report of the 5 vital areas
           </h2>
           <div className="space-y-3 text-[16px] md:text-[14px]">
             {PRODUCT_SKILLS.map((skill) => (
               <div key={skill.id} className="flex items-center gap-2">
-                <CheckCircle2 className="text-emerald-500 w-5 h-5" />
+                <CheckCircle2 className="text-[#3b9b72] w-5 h-5" />
                 <span className="text-sm text-gray-600">{skill.name}</span>
               </div>
             ))}
           </div>
-          <button
-  className="mt-6 text-sm text-[#0B5E41] border-2 border-[#0B5E41] 
+          {/* <button
+  className="mt-6 text-sm text-[#3b9b72] border-2 border-[#3b9b72] 
            rounded-full px-6 py-2 hover:bg-gray-50 transition-colors"
   onClick={() => {}}
 >
   See Sample Skill Report
-</button>
+</button> */}
+
+<div className="relative p-4 bg-white">
+  {/* Your card content */}
+  
+  <button
+    className="mt-6 mx-auto text-sm text-[#3b9b72] border-2 border-[#3b9b72] 
+           rounded-full px-6 py-2 hover:bg-gray-50 transition-colors block"
+    onClick={() => {}}
+  >
+    See Sample Skill Report
+  </button>
+</div>
+
 
         </div>
 

@@ -48,7 +48,7 @@ function Home7() {
                 className="w-full h-full object-cover"
               />
               {/* Text at the bottom */}
-              <div className="absolute bottom-0 w-full bg-[#0B5E41] bg-opacity-70 text-white text-center py-1 text-sm">
+              <div className="absolute bottom-0 w-full bg-[#3b9b72] bg-opacity-70 text-white text-center py-1 text-sm">
                <div className="flex">
                 <img src="/Home/icon.png" className="pl-3 h-5"></img>
                 {item.text}

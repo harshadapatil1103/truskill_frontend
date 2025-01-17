@@ -34,11 +34,11 @@ export default function KYS6() {
     <div className="max-w-[1200px] mx-auto px-4 py-16 bg-[#FFFFFF]">
       {/* Header */}
       <div className="text-center mb-16">
-        <div className="text-[#0B5E41] font-bold text-[16px] mb-3">
+        <div className="text-[#3b9b72] font-bold text-[16px] mb-3">
           Hear From Everyone
         </div>
         <h1 className="text-[40px] leading-tight font-semibold">
-          More than <span className="text-[#0B5E41]">30,000 Students</span>
+          More than <span className="text-[#3b9b72]">30,000 Students</span>
           <br />
           assessed their true potential
         </h1>
@@ -59,7 +59,7 @@ export default function KYS6() {
             </div> */}
 
             {/* Content */}
-            <p className="text-[#F8F8F8]text-[14px] leading-relaxed mb-6">
+            <p className="text-gray-600 text-[14px] leading-relaxed mb-6 text-justify">
               {testimonial.content}
             </p>
 

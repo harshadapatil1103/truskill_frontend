@@ -15,7 +15,7 @@ function Home4() {
     alt="Without Truskill"
     className="w-4/5 h-auto mb-4 rounded-lg"
   />
-  <ol className="list-disc pl-5 text-black space-y-9 text-[22px] ">
+  <ol className="list-disc pl-5 text-black space-y-5 text-[22px] ">
     <li>No proper guidance</li>
     <li>Overwhelmed with countless information</li>
     <li>Completely lost about your progress</li>
@@ -33,7 +33,7 @@ function Home4() {
 
 
 {/* Right Section: With Truskill */}
-<div className="flex flex-col items-center w-full max-w-md p-6  rounded-lg space-y-10">
+<div className="flex flex-col items-center w-full max-w-md px-6  rounded-lg space-y-10">
   <button className="mb-4 px-6 py-2 bg-black text-white rounded-full border-4 text-lg">
     With Truskill
   </button>
@@ -42,7 +42,7 @@ function Home4() {
     alt="With Truskill"
     className="w-4/5 h-auto mb-4 rounded-lg"
   />
-  <ol className="list-disc pl-5 space-y-3 text-black text-[22px]">
+  <ol className="list-disc pl-5 space-y-2 text-black text-[22px]">
     <li>Structured learning plans tailored for your growth</li>
     <li>A reliable source for all the skills you want to learn and benefit from</li>
     <li>Track each step of your learning journey</li>

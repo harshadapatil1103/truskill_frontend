@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const navLinks = [
     { title: 'Experience the Difference', href: '/about' },
-    { title: 'KYS', href: '/kys' },
+    { title: 'KYR', href: '/kys' },
     { title: 'Prepare', href: '/courses' },
     { title: 'Learn for free', href: '/resource' },
     { title: 'Contact us', href: '/contact' },
@@ -21,7 +21,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a href="/" className="flex items-center space-x-2">
-              <img src='/images/logo/logo.png' className='h-10 w-32'></img>
+              <img src='/images/logo/logo.png' className='h-8 w-32'></img>
             </a>
           </div>
 
@@ -31,7 +31,7 @@ const Navbar = () => {
               <a
                 key={link.title}
                 href={link.href}
-                className="text-gray-600 px-3 py-2 text-sm font-medium transition-all  hover:border-b-4 hover:border-emerald-600"
+                className="text-gray-600 px-3 py-2 text-sm font-medium transition-all  hover:border-b-4 hover:border-[#3b9b72]"
               >
                 {link.title}
               </a>
@@ -40,10 +40,10 @@ const Navbar = () => {
 
           {/* Auth Buttons */}
           <div className="hidden md:flex items-center space-x-6 ml-0">
-            <a href="https://learn.truskill.in/" className="pr-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors hover:border-b-4 hover:border-emerald-600">
+            <a href="https://learn.truskill.in/" className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-[#3b9b72] transition-colors hover:border-b-4 hover:border-[#3b9b72]">
               Dashboard
             </a>
-            <button className="px-4 py-2 text-sm font-medium text-white bg-emerald-600 rounded-md hover:bg-emerald-700 transition-colors">
+            <button className="px-4 py-2 text-sm font-medium text-white bg-[#3b9b72] rounded-md hover:bg-[#3b9b72] transition-colors">
               Log In
             </button>
           </div>
@@ -67,16 +67,16 @@ const Navbar = () => {
             <a
               key={link.title}
               href={link.href}
-              className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-emerald-600 hover:bg-gray-50"
+              className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-[#3b9b72] hover:bg-gray-50"
             >
               {link.title}
             </a>
           ))}
           <div className="mt-4 space-y-2">
-            <button className="w-full px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors">
+            <button className="w-full px-4 py-2 text-sm font-medium text-gray-700 hover:text-[#3b9b72] transition-colors">
               Dashboard
             </button>
-            <button className="w-full px-4 py-2 text-sm font-medium text-white bg-emerald-600 rounded-md hover:bg-emerald-700 transition-colors">
+            <button className="w-full px-4 py-2 text-sm font-medium text-white bg-[#3b9b72] rounded-md hover:bg-[#3b9b72] transition-colors">
               Log In
             </button>
           </div>
