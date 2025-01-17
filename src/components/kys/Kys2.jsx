@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-function Kys2() {
+function KYS2() {
   return (
     <div className="lg:flex py-8 lg:justify-center space-y-5 lg:space-y-0">
  
  {/* <div className=" lg:w-1/3 mx-4 p-6 bg-[#F8F8F8] rounded-lg shadow-md">
         <div className='space-y-2 mb-16'>
-        <p className="text-[#3b9b72] text-sm font-semibold">Why should you take the KYS test?</p>
+        <p className="text-[#3b9b72] text-sm font-semibold">Why should you take the KYR test?</p>
         <p className="text-[#4E4E4E] text-2xl font-medium  font-poppins">Identify your strengths &
         blindspots</p>
         <p className="text-black text-base mb-60">Understand which product skills you haveand take roles suited to your strengths. Build
@@ -64,7 +64,7 @@ function Kys2() {
     </div>
 
     <div className="lg:w-1/3 mx-4 p-6 bg-[#FFF8F2] rounded-lg shadow-md">
-    <p className="text-[#3b9b72] text-[12px] md:text-sm font-bold">Why should you take the KYS test?</p>
+    <p className="text-[#3b9b72] text-[12px] md:text-sm font-bold">Why should you take the KYR test?</p>
 <div className='mt-3 space-y-7'>
         <div className="flex items-start space-x-2">
           <img src='/images/kys/icon1.png'></img>
@@ -104,4 +104,4 @@ function Kys2() {
   )
 }
 
-export default Kys2
+export default KYS2

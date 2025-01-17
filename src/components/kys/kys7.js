@@ -12,7 +12,7 @@ export default function KYS7() {
           </h2>
           
           <div className="text-[40px] leading-tight font-semibold mb-8">
-            Know Your Self.
+            Know Your Readiness.
           </div>
   
           <div className="flex items-center justify-center gap-4">

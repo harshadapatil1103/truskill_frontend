@@ -6,13 +6,13 @@ const testimonials = [
   {
     name: 'Amol Singh',
     role: 'Product Manager - Intuit',
-    content: 'Being a successful PM needs a wide variety of skills and its incredibly difficult to assess yourself on these skills. Know Your Self Test solves this problem. You can use this to test yourself on core skills needed to be a great Product Manager.',
+    content: 'Being a successful PM needs a wide variety of skills and its incredibly difficult to assess yourself on these skills. Know Your Readiness Test solves this problem. You can use this to test yourself on core skills needed to be a great Product Manager.',
     avatar: '/images/kys/a6b178645f8888f5b0d33373baab01d89bb4b2cf.png'
   },
   {
     name: 'Deeptanshu Baranwal',
     role: 'Director of Product Management - PharmEasy',
-    content: 'Self-awareness is step one of building a great PM career. You can start by taking the Know Your Self Self test if you are someone who wants to get into a PM role, for understanding your own strengths, and upskill yourself in the right areas.',
+    content: 'Self-awareness is step one of building a great PM career. You can start by taking the Know Your Self Readiness test if you are someone who wants to get into a PM role, for understanding your own strengths, and upskill yourself in the right areas.',
     avatar: '/images/kys/a6b178645f8888f5b0d33373baab01d89bb4b2cf.png'
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
   {
     name: 'Mohammad Sarosh',
     role: 'Product Manager',
-    content: "The KYS Test doesn't test for theory but instead gives you mini-cases to solve, that mimic the day-to-day job of a PM. From making the right strategic choices given a situation to deducing the right inferences given a set of data points, the questions are well-rounded to test the different aspects of being a PM.",
+    content: "The KYR Test doesn't test for theory but instead gives you mini-cases to solve, that mimic the day-to-day job of a PM. From making the right strategic choices given a situation to deducing the right inferences given a set of data points, the questions are well-rounded to test the different aspects of being a PM.",
     avatar: '/images/kys/a6b178645f8888f5b0d33373baab01d89bb4b2cf.png'
   }
 ]

@@ -19,7 +19,7 @@ function Home2() {
     
       <div className="w-full lg:w-1/2 px-2 pt-4 pb-2 bg-white">
         <p className="text-gray-600 text-lg">
-          Know your self test
+          Know your Readiness test
         </p>
         <h2 className="text-xl font-medium mb-3 mt-3">Benchmark your skills against Top Talent </h2>
         <p className="text-sm font-normal text-gray-600">
@@ -32,7 +32,7 @@ function Home2() {
         <div className="lg:px-4 lg:py-2 bg-white text-black rounded flex space-x-2 cursor-pointer"  onClick={handlePlayButtonClick}>
         <img src={showVideo ? "Home/pausebutton.png" :"Home/playbutton.png"}></img>
           <p className="text-sm">Learn About<br></br>
-          KYS in 2 mins</p>
+          KYR in 2 mins</p>
         </div>
       </div>
     

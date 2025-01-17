@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import React from 'react'
 import Link from 'next/link'
-function kys1() {
+function KYS1() {
 
     const [showVideo, setShowVideo] = useState(false);
   
@@ -31,14 +31,14 @@ function kys1() {
   <div className=" lg:px-4 py-2 bg-white text-black rounded flex space-x-2 mt-9 cursor-pointer"  onClick={handlePlayButtonClick}>
           <img src={showVideo ? "Home/pausebutton.png" :"Home/playbutton.png"}></img>
           <p className='text-[14px]'>Learn About<br></br>
-          KYS in 2 mins</p>
+          KYR in 2 mins</p>
         </div>
   </div>
  
 </div>
 
 <div className="w-full lg:w-1/2 p-3 lg:p-8 bg-white">
-  <img src="images/kys/kys1.png" alt="Image" className="w-full h-auto rounded-lg" />
+  <img src="images/KYS/KYS1.png" alt="Image" className="w-full h-auto rounded-lg" />
 </div>
 
 {showVideo && (
@@ -70,4 +70,4 @@ function kys1() {
   )
 }
 
-export default kys1
+export default KYS1

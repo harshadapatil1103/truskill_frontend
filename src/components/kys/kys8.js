@@ -3,13 +3,13 @@
 import { useState } from "react";
 
 const faqs = [
-  { question: "What skills are tested in the KYS test?", answer: "The KYS test assesses coding, aptitude, and analytical skills." },
-  { question: "What is the format of the KYS test?", answer: "The test consists of multiple-choice and coding questions." },
-  { question: "How should I prepare for the KYS test?", answer: "Practice coding challenges and brush up on core concepts." },
-  { question: "How long is the KYS test?", answer: "The test duration is approximately 2 hours." },
-  { question: "What happens if I perform well in the KYS test?", answer: "You may receive offers for advanced programs or job interviews." },
-  { question: "How many times can I take the KYS test?", answer: "You can attempt the test once every 6 months." },
-  { question: "What are the charges to take the KYS test?", answer: "The test is free of charge for the first attempt." },
+  { question: "What skills are tested in the KYR test?", answer: "The KYR test assesses coding, aptitude, and analytical skills." },
+  { question: "What is the format of the KYR test?", answer: "The test consists of multiple-choice and coding questions." },
+  { question: "How should I prepare for the KYR test?", answer: "Practice coding challenges and brush up on core concepts." },
+  { question: "How long is the KYR test?", answer: "The test duration is approximately 2 hours." },
+  { question: "What happens if I perform well in the KYR test?", answer: "You may receive offers for advanced programs or job interviews." },
+  { question: "How many times can I take the KYR test?", answer: "You can attempt the test once every 6 months." },
+  { question: "What are the charges to take the KYR test?", answer: "The test is free of charge for the first attempt." },
 ];
 
 export default function FAQPage() {

@@ -14,7 +14,7 @@ function Home1() {
           <p className="text-[22px] text-gray-700 font-normal">Our mission is simple: Help you thrive in today’s fast-paced world and stand out with your professional skills.</p>
           <div className="flex justify-center lg:justify-start space-x-4 mb-4 mt-4">
             <Link href="/courses" className="px-2 md:px-4 py-1 md:py-2 bg-[#3b9b72] text-white rounded text-sm lg:text-xl">Explore Courses</Link>
-            <Link href="/kys" className="px-2 md:px-4 py-1 md:py-2 text-[#3b9b72] bg-white border border-[#3b9b72] rounded text-sm lg:text-xl">Know Your self</Link>
+            <Link href="/kys" className="px-2 md:px-4 py-1 md:py-2 text-[#3b9b72] bg-white border border-[#3b9b72] rounded text-sm lg:text-xl">Know Your Readiness</Link>
           </div>
         </div>
 
