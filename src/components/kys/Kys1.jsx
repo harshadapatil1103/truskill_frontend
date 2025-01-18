@@ -23,7 +23,7 @@ function Kys1() {
   </p>
   <h2 className="text-[40px] md:text-5xl font-semibold my-6 font-poppins">Benchmark Yourself Against Top Company Requirement.
   </h2>
-  <p className="text-[14px] md:text-[16px] text-[#7A7A7A]">
+  <p className="text-[14px] md:text-[16px] text-[#7A7A7A] text-justify">
   Discover your readiness for recruitment at leading organizations with our exclusive Know Your Readiness Test (KYR). Designed specifically to evaluate key competencies crucial for success in the hiring processes of top companies, this test provides you with actionable insights.
   </p>
   <div className='mx-10 lg:mx-0 lg:flex mt-5 md:justify-start items-center p-4 space-y-4 lg:space-y-0 '>

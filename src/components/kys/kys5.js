@@ -46,7 +46,7 @@ export default function KYSTestExplainer() {
           <h2 className="text-[24px] md:text-[18px]  font-bold mb-3">
           Answer 50 questions in 60 minutes
           </h2>
-          <p className="text-gray-600 text-[16px] md:text-[14px]">
+          <p className="text-gray-600 text-[16px] md:text-[14px] text-justify">
           Solve 50 Curated MCQ problems in 60 minutes and assess your readiness as a potential aspirant.
 
           </p>
@@ -109,7 +109,7 @@ export default function KYSTestExplainer() {
           <h2 className="text-[24px] md:text-[18px] font-bold mb-3">
             Compare your scores with peers and experts
           </h2>
-          <p className="text-gray-600 text-[16px] md:text-[14px]">
+          <p className="text-gray-600 text-[16px] md:text-[14px] text-justify">
             Measure your growth potential by comparing your report with fellow and 
             expert PMs from around the globe.
           </p>
