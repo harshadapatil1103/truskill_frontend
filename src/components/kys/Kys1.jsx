@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import React from 'react'
 import Link from 'next/link'
-function KYS1() {
+function Kys1() {
 
     const [showVideo, setShowVideo] = useState(false);
   
@@ -38,7 +38,7 @@ function KYS1() {
 </div>
 
 <div className="w-full lg:w-1/2 p-3 lg:p-8 bg-white">
-  <img src="images/KYS/kys1.png" alt="Image" className="w-full h-auto rounded-lg" />
+  <img src="images/kys/kys1.png" alt="Image" className="w-full h-auto rounded-lg" />
 </div>
 
 {showVideo && (
@@ -70,4 +70,4 @@ function KYS1() {
   )
 }
 
-export default KYS1
+export default Kys1
