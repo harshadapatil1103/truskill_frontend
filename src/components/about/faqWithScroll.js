@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 
 const faqData = [
-  { question: "Who is this community for?", answer: "This community is for ... (answer here)." },
-  { question: "What are the most successful placements?", answer: "The most successful placements are ... (answer here)." },
-  { question: "How do I get more details about the upcoming courses?", answer: "To get details, ... (answer here)." },
-  { question: "What are the popular courses?", answer: "Popular courses include ... (answer here)." },
+  { question: "Who is this community for?", answer: "This community is for learners, professionals, and enthusiasts aiming to upskill in technology and professional development." },
+  { question: "What are the most successful placements?", answer: "Successful placements include roles at top-tier companies in software development" },
+  { question: "How do I get more details about the upcoming courses?", answer: "Visit the website's Courses section or subscribe to the newsletter for updates." },
+  { question: "What are the popular courses?", answer: "Popular courses include Aptitude, Data Structures and Algorithms (DSA), and Reasoning." },
 ];
 
 const logos = [

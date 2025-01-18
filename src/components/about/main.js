@@ -13,10 +13,10 @@ const main = () => {
         <h1 className="text-[40px]  text-gray-800  font-poppins font-semibold">
 
           <span>TruSkill Academy is your </span>
-          <span className="text-[#3b9b72] font-poppins font-semibold">valuable partner for Campus </span>
+          <span className="text-[#3b9b72] font-poppins font-semibold">valuable partner for Campus Placements</span>
          
          
-          <span className="text-black font-poppins font-semibold" >Placements Training. </span>
+          <span className="text-black font-poppins font-semibold" > Training. </span>
           
         </h1>
 

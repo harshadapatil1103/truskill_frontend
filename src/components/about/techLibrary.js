@@ -52,8 +52,8 @@ export default function TechLibrary() {
            
           </div>
           <div className="mt-8">
-            <p className="text-gray-600 text-center">"Tell me and I forget. Teach me and I remember. Involve me and I learn."</p>
-            <p className="text-[#3b9b72] text-center">-Benjamin Franklin</p>
+            <p className="text-gray-600 text-center text-sm">"Tell me and I forget. Teach me and I remember. Involve me and I learn."</p>
+            <p className="text-[#3b9b72] text-center text-sm">-Benjamin Franklin</p>
           </div>
         </div>
           </div>
