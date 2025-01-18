@@ -38,7 +38,7 @@ function Kys1() {
 </div>
 
 <div className="w-full lg:w-1/2 p-3 lg:p-8 bg-white">
-  <img src="images/kys/kys1.png" alt="Image" className="w-full h-auto rounded-lg" />
+  <img src="/images/kys/kys1.png" alt="Image" className="w-full h-auto rounded-lg" />
 </div>
 
 {showVideo && (
