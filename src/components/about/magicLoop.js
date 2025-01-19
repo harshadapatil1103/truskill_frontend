@@ -8,7 +8,7 @@ export default function MagicLoop() {
               Meet the <span className="text-[#3b9b72]">magic loop.</span>
             </h1>
             <p className="text-gray-700 text-lg">
-              Focus on <span className="font-semibold">one core skill every week.</span>
+              Focus on <span className="font-semibold">one topic at a time</span>
             </p>
             <p className="text-gray-600 text-lg">
               Learn,Revise,Practice Assess
