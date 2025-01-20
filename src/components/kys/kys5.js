@@ -116,7 +116,7 @@ export default function KYSTestExplainer() {
           <div className="mt-8 flex justify-center">
           <div className="w-auto h-auto rounded-full" aria-label="Profile illustration">
   <img 
-    src="images/kys/girl.svg" 
+    src="images/kys/girl.png" 
     alt="Profile" 
     className="w-full h-full object-cover rounded-full"
   />

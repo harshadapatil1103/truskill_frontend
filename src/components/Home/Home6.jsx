@@ -17,7 +17,7 @@ function Home6() {
       <div>
         {/* left */}
         <div className='flex flex-row'>
-          <div className='mt-40'>
+          <div className='mt-20 lg:mt-44'>
             <h3 className='mb-2 text-lg'>01</h3>
             <img src="/Home/Line2.png" alt="Without Truskill" />
             <h3 className='mb-2 text-lg'>02</h3>
@@ -46,7 +46,7 @@ function Home6() {
                   </p>
                 </div>
               </div>
-              <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
+              <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 px-11">
                 <img
                   src="/Home/Home5.png"
                   alt="Take a KYS test"
@@ -74,7 +74,7 @@ function Home6() {
                   </p>
                 </div>
               </div>
-              <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
+              <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 px-11">
                 <img
                   src="/Home/Home6.png"
                   alt="Personalized Learning Paths"
@@ -105,7 +105,7 @@ function Home6() {
                   </p>
                 </div>
               </div>
-              <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
+              <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 px-11">
                 <img
                   src="/Home/Home7.png"
                   alt="Hands-on Practice"
@@ -133,7 +133,7 @@ function Home6() {
                   </p>
                 </div>
               </div>
-              <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 p-11">
+              <div className="w-full lg:w-1/2 mt-2 md:mt-6 lg:mt-0 px-11">
                 <img
                   src="/Home/Home8.png"
                   alt="Cutting-edge technology"
