@@ -242,7 +242,7 @@ const ContactForm = () => {
                 <span className="text-sm">📞 +91 9082574346</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-sm">✉️ info@truskill.academy</span>
+                <span className="text-sm">✉️ info@truskill.in</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-sm">📍 Andheri, Mumbai, Maharashtra</span>
