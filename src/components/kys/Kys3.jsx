@@ -3,7 +3,7 @@ import React from 'react'
 function Kys3() {
   return (
     <div>
-    <div className='md:flex py-5 h-auto mt-16 mb-8 justify-between'>
+    <div className='md:flex py-5 h-auto mt-16 mb-8 md:justify-between'>
 
    
     
@@ -20,7 +20,7 @@ function Kys3() {
 
 
 <div className="w-full md:w-1/2 p-3 md:p-8 bg-white">
-  <img src="images/kys/kys2.png" alt="Image" className="w-full h-auto" />
+  <img src="images/kys/kys2.png" alt="Image" className="w-5/6 h-72" />
 </div>
 
 
