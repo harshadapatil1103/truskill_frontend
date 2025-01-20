@@ -27,7 +27,7 @@ const Card = ({ cardItem }) => {
       {/* Card Image */}
       {cardItem.image && (
         <img
-          src={`http://145.223.18.76:1337${cardItem.image.url}`}
+          src={`http://admin.truskill.in${cardItem.image.url}`}
           alt={cardItem.heading}
           className="w-full h-40 object-cover rounded-t-2xl p-2"
         />

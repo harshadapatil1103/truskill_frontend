@@ -65,7 +65,7 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
     const fetchCourseData = async () => {
       try {
         const response = await fetch(
-          `http://145.223.18.76:1337/api/course-pages/${slug}?populate=*`
+          `http://admin.truskill.in/api/course-pages/${slug}?populate=*`
         );
 
         if (!response.ok) {
@@ -154,7 +154,7 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
           <div className="mb-4">
           
           <img
-            src={`http://145.223.18.76:1337${course.image.formats.thumbnail.url}`}
+            src={`http://admin.truskill.in${course.image.formats.thumbnail.url}`}
              className='w-full p-3'
             alt={course.title}
           />
@@ -163,7 +163,7 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
         {course.video_preview?.url && (
   <div className="mb-4">
     <video
-      src={`http://145.223.18.76:1337${course.video_preview.url}`}
+      src={`http://admin.truskill.in${course.video_preview.url}`}
       className="w-full p-3"
       controls
       alt={course.title}
