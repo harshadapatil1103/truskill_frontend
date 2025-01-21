@@ -16,8 +16,8 @@ const ContactForm = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState(""); 
-  const [status, setStatus] = useState(""); 
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [status, setStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -54,7 +54,7 @@ const ContactForm = () => {
           lastName,
           email,
           message,
-          phoneNumber, 
+          phoneNumber,
           countryCode,
         }),
       });
@@ -83,14 +83,20 @@ const ContactForm = () => {
   return (
     <div className="bg-[#f9fafb] px-8 py-12">
       <Head>
-        <title>Contact Us | Truskill Academy</title>
+        <title>
+          Contact Us | TruSkill – Your Partner in Professional Growth
+        </title>
         <meta
           name="description"
-          content="Reach out to Truskill Academy for inquiries, feedback, or support."
+          content="Get in touch with TruSkill for any inquiries, support, or feedback. Whether you need assistance with our upskilling programs or want to partner with us, we're here to help. Connect with our team today!"
         />
         <meta
           name="keywords"
-          content="contact, Truskill Academy, inquiries, feedback, support"
+          content="Contact TruSkill,
+, Get in touch with TruSkill
+, Reach out to TruSkill
+, TruSkill support
+, Truskill Academy"
         />
         <meta name="author" content="Truskill Academy Team" />
       </Head>
@@ -198,8 +204,8 @@ const ContactForm = () => {
                     type="tel"
                     placeholder="XXX-XX-XXXXX"
                     className="w-full p-3 rounded-lg border border-gray-600 text-sm"
-                    value={phoneNumber} 
-                    onChange={(e) => setPhoneNumber(e.target.value)} 
+                    value={phoneNumber}
+                    onChange={(e) => setPhoneNumber(e.target.value)}
                     required
                   />
                 </div>

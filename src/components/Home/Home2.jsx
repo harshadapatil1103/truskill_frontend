@@ -37,7 +37,7 @@ function Home2() {
       </div>
     
       <div className="w-full lg:w-1/4 lg:p-8 bg-white">
-        <img src="/Home/kys.jpg" alt="Image" className="w-full h-auto " />
+        <img src="/Home/kys.jpg" alt="Detailed user Progess Report illustration" className="w-full h-auto " />
       </div>
       {showVideo && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center">
