@@ -9,7 +9,7 @@ import Home6 from "../components/Home/Home6";
 // import Home7 from "../components/Home/Home7";
 import ScrollToTopButton from "../components/ScrollToTopButton";
 import Home8 from "../components/Home/Home8";
-import ContactForm from "../components/Home/Home9";
+import ContactForm from "./contact/page";
 function page() {
   return (
     <div>

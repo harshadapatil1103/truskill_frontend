@@ -6,8 +6,9 @@ import "/styles/globals.css";
 // import { Head } from "next/document";
 
 export const metadata = {
-  title: "TruSkill Academy",
-  description: "Truskill a digital courses provider website",
+  title: "Empowering Careers with Comprehensive Campus Placement Training",
+  description:
+    "Achieve your dream campus placement with TruSkill Academy. Explore expert-led training programs in aptitude, communication, technical skills, and more. Empower your career today!",
 };
 
 export default function RootLayout({ children }) {
@@ -15,20 +16,19 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <link rel="icon" href="/favicon.ico" />
-        
+
         <link
           href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap"
           rel="stylesheet"
         />
-        </head>
-      <body className=" text-foreground font-regular" style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 500 }}>
+      </head>
+      <body
+        className=" text-foreground font-regular"
+        style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 500 }}>
         {/* Navbar */}
         <Navbar />
 
