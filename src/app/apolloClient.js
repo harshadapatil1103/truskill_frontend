@@ -2,7 +2,7 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'http://admin.truskill.in/graphql', // Strapi GraphQL endpoint
+  uri: 'http://strapi.truskill.in/graphql', // Strapi GraphQL endpoint
   cache: new InMemoryCache(),
 });
 
