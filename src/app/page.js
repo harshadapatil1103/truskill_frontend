@@ -9,16 +9,19 @@ import Home6 from "../components/Home/Home6";
 import ScrollToTopButton from "../components/ScrollToTopButton";
 import Home8 from "../components/Home/Home8";
 import ContactForm from "./contact/page";
+import Head from "next/head";
+
 
 function Page() {
   const jsonLd = {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    name: "Your Website Name",
-    description: "This is your website description for better SEO.",
+    name: "Truskill Academy",
+    description:
+      "Achieve your dream campus placement with TruSkill Academy. Explore expert-led training programs in aptitude, communication, technical skills, and more. Empower your career today.",
     publisher: {
       "@type": "Organization",
-      name: "Your Company Name",
+      name: "Truskill",
     },
   };
 

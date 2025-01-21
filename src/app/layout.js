@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ApolloWrapper from "../components/ApolloWrapper/ApolloWrapper";
 
+
 import "/styles/globals.css";
 
 export const metadata = {
