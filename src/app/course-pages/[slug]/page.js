@@ -210,10 +210,10 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
 
     {/* Buttons */}
                    <div className="mt-6 flex flex-col gap-4 text-[16px]">
-                       <button className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700  transition duration-300">
+                       <button className="w-full bg-[#3b9b72] text-white py-2 px-4 rounded-md hover:[#3b9b72]  transition duration-300">
                          Add to Cart
                        </button>
-                         <button className="w-full bg-[#EFFFE8] text-green-700 py-2 px-4 rounded-md hover:bg-[#cbf1ba] transition duration-300">
+                         <button className="w-full bg-[#EFFFE8] text-[#3b9b72] py-2 px-4 rounded-md hover:bg-[#cbf1ba] transition duration-300">
                            Buy Now
                       </button>
                      </div>
@@ -233,7 +233,7 @@ const [whatsapp,setWhatsapp]=useState("https://www.facebook.com")
       <div className="w-full mx-auto mt-8 px-4 flex justify-between items-center bg-gray-100 p-4 rounded-lg">
   {/* Copy Link Section */}
   <button
-    className="bg-white text-black px-2 py-1 rounded-lg shadow-md hover:bg-[#51d9ae] hover:text-white transition duration-200"
+    className="bg-white text-black px-2 py-1 rounded-lg shadow-md hover:bg-[#3b9b72] hover:text-white transition duration-200"
     onClick={handleCopyLink}
   >
     Copy Link
