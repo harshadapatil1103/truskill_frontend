@@ -54,7 +54,7 @@ function Home2() {
                 controls
                 autoPlay
               >
-                <source src="/videos/dummy.mp4" type="video/mp4" />
+                <source src="" type="video/mp4" />
                 
                 Your browser does not support the video tag.
               </video>
